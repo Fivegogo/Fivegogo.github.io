@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "GeWu-Lab"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "2.png"
+hero_media = "logo.svg"
 
 [design.background]
   # Apply a background color, gradient, or image.

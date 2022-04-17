@@ -9,7 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Member"
+  name = "Members"
   url = "#people"
   weight = 20
 
@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Datasets"
-  url = "publication/"
+  url = "dataset/"
   weight = 40
 
 [[main]]

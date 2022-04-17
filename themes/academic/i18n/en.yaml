@@ -178,6 +178,10 @@
 - id: pub_workshop
   translation: Workshop paper
 
+# Dataset details
+- id: open_dataset_site
+  translation: Download this dataset
+
 # Project details
 
 - id: open_project_site
