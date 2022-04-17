@@ -6,7 +6,7 @@ superuser: true
 role: Since 2022
 
 
-website_url: http://175.24.94.35/
+website_url: http://www.pangxincheng.work
 
 user_groups:
 - Master Students
