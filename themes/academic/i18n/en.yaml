@@ -152,7 +152,7 @@
   translation: Conference paper
 
 - id: pub_journal
-  translation: Journal article
+  translation: Journal paper
 
 - id: pub_preprint
   translation: Preprint
@@ -171,6 +171,9 @@
 
 - id: pub_patent
   translation: Patent
+
+- id: pub_workshop
+  translation: Workshop paper
 
 # Project details
 

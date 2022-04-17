@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "GeWu-Lab"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "logo.png"
+hero_media = "1.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -51,4 +51,4 @@ hero_media = "logo.png"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-这里填写一段简介
+I'm tenure-track faculty at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn). Before that, I was previously a research scientist at Baidu Research. I obtained the PhD degree from [Northwestern Polytechnical University](http://en.nwpu.edu.cn/) in 2019, supervised by [Xuelong Li](https://scholar.google.com.hk/citations?user=ahUibskAAAAJ&hl=zh-CN), [Xiaoqiang Lu](https://scholar.google.com.hk/citations?user=FRyuu2IAAAAJ&hl=zh-CN), and [Feiping Nie](http://www.escience.cn/people/fpnie/index.html). What I met, told and learned in the Center for OPTical IMagery Analysis and Learning (OPTIMAL) led by Prof. [Xuelong Li](https://scholar.google.com.hk/citations?user=ahUibskAAAAJ&hl=zh-CN) have undoubtedly made great impacts on me.
