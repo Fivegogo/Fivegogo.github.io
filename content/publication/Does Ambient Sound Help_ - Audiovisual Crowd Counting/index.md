@@ -15,4 +15,6 @@ url_pdf: https://dtaoo.github.io/papers/2020_counting_W.pdf
 url_video: https://www.youtube.com/watch?v=bk8fm7t7RJU  
 url_code: https://github.com/qingzwang/AudioVisualCrowdCounting  
 url_dataset: https://zenodo.org/record/3828468  
+topic_types: ["1"]
+topic_types_name: Test
 ---  

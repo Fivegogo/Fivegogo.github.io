@@ -10,4 +10,6 @@ publication: AAAI 2021
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/abs/2012.07508  
 url_code: https://github.com/redwang/DTGRM  
+topic_types: ["0"]
+topic_types_name: Uncategorized
 ---  

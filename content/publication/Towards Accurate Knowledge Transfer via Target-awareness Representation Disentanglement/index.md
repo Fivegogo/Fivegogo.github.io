@@ -13,4 +13,6 @@ publication_types: ["3"]
 publication:   
 publication_types_name: Preprint  
 url_pdf: https://arxiv.org/abs/2010.08532  
+topic_types: ["0"]
+topic_types_name: Uncategorized
 ---  

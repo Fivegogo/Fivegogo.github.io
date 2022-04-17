@@ -14,4 +14,6 @@ publication_types_name: Preprint
 url_pdf: https://arxiv.org/abs/2005.07097  
 url_code: https://github.com/qingzwang/AudioVisualCrowdCounting  
 url_dataset: https://zenodo.org/record/3828468  
+topic_types: ["1"]
+topic_types_name: Test
 ---  

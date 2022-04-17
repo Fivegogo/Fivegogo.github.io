@@ -134,7 +134,10 @@
   translation: Publication
 
 - id: publication_type
-  translation: Type
+  translation: All
+
+- id: topic_types
+  translation: All
 
 - id: date
   translation: Date
@@ -177,6 +180,15 @@
 
 - id: pub_workshop
   translation: Workshop paper
+
+# Topic details
+
+- id: topic_uncat
+  translation: Uncategorized
+
+- id: topic_test
+  translation: Test
+
 
 # Dataset details
 - id: open_dataset_site

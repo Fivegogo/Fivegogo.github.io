@@ -13,4 +13,6 @@ publication_types_name: Conference Paper
 url_pdf: https://arxiv.org/abs/2203.14072  
 url_code: https://github.com/GeWu-Lab/MUSIC-AVQA  
 url_project: https://gewu-lab.github.io/MUSIC-AVQA/  
+topic_types: ["0"]
+topic_types_name: Uncategorized
 ---  

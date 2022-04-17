@@ -14,4 +14,6 @@ publication:
 publication_types_name: Preprint  
 url_pdf: https://arxiv.org/abs/2108.00688  
 url_demo: https://www.youtube.com/watch?v=gD_fNJPBWhs  
+topic_types: ["0"]
+topic_types_name: Uncategorized
 ---  

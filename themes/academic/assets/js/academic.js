@@ -5,7 +5,7 @@
  *  Core JS functions and initialization.
  **************************************************/
 
-(function($){
+ (function($){
 
   /* ---------------------------------------------------------------------------
    * Responsive scrolling for URL hashes.
@@ -108,6 +108,120 @@
       $(this).collapse('hide');
     }
   });
+
+  /* ---------------------------------------------------------------------------
+   * Filter topics.
+   * --------------------------------------------------------------------------- */
+
+  // Active publication filters.
+  let topicFilters = {};
+
+  // Search term.
+  let searchRegex_topic;
+
+  // Filter values (concatenated).
+  let filterValues_topic;
+
+  // Publication container.
+  let $grid_topic = $('#container-publications');
+
+  // Initialise Isotope.
+  $grid_topic.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    },
+    filter: function() {
+      let $this = $(this);
+      let searchResults = searchRegex_topic ? $this.text().match( searchRegex_topic ) : true;
+      let filterResults = filterValues_topic ? $this.is( filterValues_topic ) : true;
+      return searchResults && filterResults;
+    }
+  });
+
+  // Filter by search term.
+  let $quickSearch_topic = $('.filter-search').keyup( debounce( function() {
+    searchRegex_topic = new RegExp( $quickSearch_topic.val(), 'gi' );
+    $grid_topic.isotope();
+  }) );
+
+  // Debounce input to prevent spamming filter requests.
+  function debounce( fn, threshold ) {
+    let timeout;
+    threshold = threshold || 100;
+    return function debounced() {
+      clearTimeout( timeout );
+      let args = arguments;
+      let _this = this;
+      function delayed() {
+        fn.apply( _this, args );
+      }
+      timeout = setTimeout( delayed, threshold );
+    };
+  }
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.topic-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    topicFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    filterValues = concatValues( topicFilters );
+
+    // Activate filters.
+    $grid_topic.isotope();
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "topictype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.topictype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_topics() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.topictype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'topictype';
+    pubFilters[ filterGroup ] = filterValue;
+    filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_topic.isotope();
+
+    // Set selected option.
+    $('.topictype-select').val(filterValue);
+  }
+
+
+
 
   /* ---------------------------------------------------------------------------
    * Filter publications.
@@ -541,9 +655,12 @@
     // Enable publication filter for publication index page.
     if ($('.pub-filters-select')) {
       filter_publications();
+      filter_topics();
       // Useful for changing hash manually (e.g. in development):
       // window.addEventListener('hashchange', filter_publications, false);
     }
+
+
 
     // Scroll to top of page.
     $('.back-to-top').click( function(event) {

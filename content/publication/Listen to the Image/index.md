@@ -12,4 +12,6 @@ publication_types_name: Conference Paper
 url_pdf: https://dtaoo.github.io/papers/2019_voice.pdf  
 url_code: https://github.com/DTaoo/Congenitally-Blind-Model  
 url_project: https://redwang.github.io/CVPR19/  
+topic_types: ["0"]
+topic_types_name: Uncategorized
 ---  

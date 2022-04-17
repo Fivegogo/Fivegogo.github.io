@@ -8,6 +8,7 @@ date: ${date}
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent; 9 = Workshop Paper
 publication_types: ["${pub_types}"]
+topic_types: ["${topic_types}"]
 
 publication: "CVPR"
 

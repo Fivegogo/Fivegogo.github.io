@@ -12,4 +12,6 @@ publication_types: ["3"]
 publication:   
 publication_types_name: Preprint  
 url_pdf: https://arxiv.org/abs/2106.01489  
+topic_types: ["0"]
+topic_types_name: Uncategorized
 ---  
