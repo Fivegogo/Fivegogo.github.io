@@ -1,5 +1,5 @@
 ---
-name: Di Hu 胡 迪
+name: Di Hu
 
 authors:
 - dihu
@@ -30,6 +30,7 @@ social:
   link: files/DTao_Resume.pdf
 
 email: "dihu@ruc.edu.cn"
+website_url: https://dtaoo.github.io/
 
 user_groups:
 - Faculty
