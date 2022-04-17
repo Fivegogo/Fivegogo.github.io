@@ -70,6 +70,9 @@
 - id: btn_download
   translation: Download
 
+- id: btn_demo
+  translation: Demo
+
 # About widget
 
 - id: interests
