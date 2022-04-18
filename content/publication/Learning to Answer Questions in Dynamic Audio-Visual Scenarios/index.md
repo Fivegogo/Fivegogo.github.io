@@ -15,4 +15,5 @@ url_code: https://github.com/GeWu-Lab/MUSIC-AVQA
 url_project: https://gewu-lab.github.io/MUSIC-AVQA/  
 topic_types: ["0"]
 topic_types_name: Uncategorized
+rating : 2022_03_04
 ---  

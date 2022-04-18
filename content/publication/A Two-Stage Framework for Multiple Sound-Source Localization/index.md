@@ -15,4 +15,5 @@ url_video: https://www.youtube.com/watch?v=153xEWWjt-w
 url_code: https://github.com/shvdiwnkozbw/Multi-Source-Sound-Localization  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2020_03_01
 ---  

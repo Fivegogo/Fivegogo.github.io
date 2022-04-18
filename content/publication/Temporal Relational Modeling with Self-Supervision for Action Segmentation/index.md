@@ -12,4 +12,5 @@ url_pdf: https://arxiv.org/abs/2012.07508
 url_code: https://github.com/redwang/DTGRM  
 topic_types: ["0"]
 topic_types_name: Uncategorized
+rating : 2020_10_01
 ---  

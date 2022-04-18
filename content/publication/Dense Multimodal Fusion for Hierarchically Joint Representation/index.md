@@ -11,4 +11,5 @@ publication_types_name: Conference Paper
 url_pdf: https://dtaoo.github.io/papers/2019_DMN.pdf  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2019_10_01
 ---  

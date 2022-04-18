@@ -17,12 +17,19 @@
       {{ end }}
 
       <div class="form-row mb-4">
+       
+
         <div class="col-auto">
+                <b>Search Paper</b>
+              <br>
           <input type="search" class="filter-search" placeholder="{{ i18n "search_placeholder" }}" autocapitalize="off"
-          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" style="border-radius: 0.2rem; border:1px solid #ccc">
         </div>
 
         <div class="col-auto">
+          <div style="text-align:center">
+            <b>Publication Types</b>
+           </div>
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
             <option value="*">{{ i18n "publication_type" }}</option>
             {{ $pub_types := partial "functions/get_pub_types" $ }}
@@ -35,6 +42,7 @@
         </div>
 
         <div class="col-auto">
+          <b> Topic Types</b>
           <select class="topic-filters topictype-select form-control form-control-sm" data-filter-group="topictype">
             <option value="*">{{ i18n "topic_types" }}</option>
             {{ $topic_types := partial "functions/get_topic_types" $ }}
@@ -49,7 +57,8 @@
 
       <div id="container-publications">
 
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range (.Pages.ByParam "rating").Reverse }}
+        
 
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
@@ -58,12 +67,6 @@
           {{ $.Scratch.Set "pubtype" 0 }}
           {{ $.Scratch.Set "topictype" 0 }}
         {{ end }}
-
-        <!-- <div>
-          <h2>
-            {{$.Scratch.Get "pubtype"}}
-          </h2>
-        </div> -->
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} topictype-{{$.Scratch.Get "topictype" }}">
           {{ if eq $.Params.view 1 }}

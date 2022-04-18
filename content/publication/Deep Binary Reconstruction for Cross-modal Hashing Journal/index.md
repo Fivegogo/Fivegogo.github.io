@@ -9,4 +9,5 @@ publication: IEEE TRANSACTIONS ON MULTIMEDIA (TMM) 2019
 publication_types_name: Journal Paper  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2019_03_01
 ---  

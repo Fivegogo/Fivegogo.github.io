@@ -17,4 +17,5 @@ url_code: https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition
 url_dataset: https://zenodo.org/record/3828124  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2020_06_01
 ---  

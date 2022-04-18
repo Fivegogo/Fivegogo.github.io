@@ -16,4 +16,5 @@ url_pdf: https://arxiv.org/abs/2202.06406
 url_code: https://github.com/alvinliu0/Visual-Sound-Localization-in-the-Wild  
 topic_types: ["0"]
 topic_types_name: Uncategorized
+rating : 2021_10_01
 ---  

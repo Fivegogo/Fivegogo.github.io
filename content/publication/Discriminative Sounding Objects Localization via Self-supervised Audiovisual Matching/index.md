@@ -18,4 +18,5 @@ url_code: https://github.com/DTaoo/Discriminative-Sounding-Objects-Localization
 url_dataset: https://zenodo.org/record/4079386#.X4PFodozbb2  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2020_12_01
 ---  

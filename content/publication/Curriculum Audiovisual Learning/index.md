@@ -13,4 +13,5 @@ publication_types_name: Preprint
 url_pdf: https://arxiv.org/abs/2001.09414  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2020_01_01
 ---  

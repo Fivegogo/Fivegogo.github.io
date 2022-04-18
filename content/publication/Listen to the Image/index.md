@@ -14,4 +14,5 @@ url_code: https://github.com/DTaoo/Congenitally-Blind-Model
 url_project: https://redwang.github.io/CVPR19/  
 topic_types: ["0"]
 topic_types_name: Uncategorized
+rating : 2019_03_01
 ---  

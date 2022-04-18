@@ -14,4 +14,5 @@ url_pdf: https://arxiv.org/abs/2007.06355
 url_code: https://github.com/shvdiwnkozbw/Multi-Source-Sound-Localization  
 topic_types: ["0"]
 topic_types_name: Uncategorized
+rating : 2020_06_01
 ---  

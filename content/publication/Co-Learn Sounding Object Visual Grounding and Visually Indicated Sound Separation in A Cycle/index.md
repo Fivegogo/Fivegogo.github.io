@@ -11,4 +11,5 @@ url_pdf: https://dtaoo.github.io/papers/2020_CCOL_W.pdf
 url_video: https://www.youtube.com/watch?v=z4vvwbHG6pY  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2020_03_01
 ---  

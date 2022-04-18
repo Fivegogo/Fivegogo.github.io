@@ -121,6 +121,7 @@
 
   // Filter values (concatenated).
   let filterValues_topic;
+  let filterValues_pub;
 
   // Publication container.
   let $grid_topic = $('#container-publications');
@@ -135,9 +136,13 @@
     },
     filter: function() {
       let $this = $(this);
+      console.log($this)
       let searchResults = searchRegex_topic ? $this.text().match( searchRegex_topic ) : true;
-      let filterResults = filterValues_topic ? $this.is( filterValues_topic ) : true;
-      return searchResults && filterResults;
+      let filterResults_topic = filterValues_topic ? $this.is( filterValues_topic ) : true;
+      let filterResults_pub =  filterValues_pub ? $this.is(filterValues_pub) : true;
+      // let filterResults_pub = true
+
+      return searchResults && filterResults_pub && filterResults_topic;
     }
   });
 
@@ -175,13 +180,15 @@
     let $this = $(this);
 
     // Get group key.
+
     let filterGroup = $this[0].getAttribute('data-filter-group');
+
 
     // Set filter for group.
     topicFilters[ filterGroup ] = this.value;
 
     // Combine filters.
-    filterValues = concatValues( topicFilters );
+    filterValues_topic = concatValues( topicFilters );
 
     // Activate filters.
     $grid_topic.isotope();
@@ -211,7 +218,7 @@
     // Set filter.
     let filterGroup = 'topictype';
     pubFilters[ filterGroup ] = filterValue;
-    filterValues = concatValues( pubFilters );
+    filterValues_pub = concatValues( pubFilters );
 
     // Activate filters.
     $grid_topic.isotope();
@@ -230,35 +237,10 @@
   // Active publication filters.
   let pubFilters = {};
 
-  // Search term.
-  let searchRegex;
-
-  // Filter values (concatenated).
-  let filterValues;
-
-  // Publication container.
-  let $grid_pubs = $('#container-publications');
-
-  // Initialise Isotope.
-  $grid_pubs.isotope({
-    itemSelector: '.isotope-item',
-    percentPosition: true,
-    masonry: {
-      // Use Bootstrap compatible grid layout.
-      columnWidth: '.grid-sizer'
-    },
-    filter: function() {
-      let $this = $(this);
-      let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
-      let filterResults = filterValues ? $this.is( filterValues ) : true;
-      return searchResults && filterResults;
-    }
-  });
-
   // Filter by search term.
   let $quickSearch = $('.filter-search').keyup( debounce( function() {
     searchRegex = new RegExp( $quickSearch.val(), 'gi' );
-    $grid_pubs.isotope();
+    $grid_topic.isotope();
   }) );
 
   // Debounce input to prevent spamming filter requests.
@@ -295,10 +277,10 @@
     pubFilters[ filterGroup ] = this.value;
 
     // Combine filters.
-    filterValues = concatValues( pubFilters );
+    filterValues_pub = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope();
+    $grid_topic.isotope();
 
     // If filtering by publication type, update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
@@ -325,10 +307,10 @@
     // Set filter.
     let filterGroup = 'pubtype';
     pubFilters[ filterGroup ] = filterValue;
-    filterValues = concatValues( pubFilters );
+    filterValues_pub = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope();
+    $grid_topic.isotope();
 
     // Set selected option.
     $('.pubtype-select').val(filterValue);

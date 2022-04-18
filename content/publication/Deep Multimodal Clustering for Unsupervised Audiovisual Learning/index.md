@@ -12,4 +12,5 @@ url_demo: https://dtaoo.github.io/demo/DMC_demo.mp4
 url_code: https://github.com/DTaoo/DMC
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2019_03_04
 ---  

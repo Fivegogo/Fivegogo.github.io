@@ -15,4 +15,5 @@ url_code: https://github.com/GeWu-Lab/CSOL_TPAMI2021
 url_project: https://gewu-lab.github.io/CSOL_TPAMI2021/  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2021_08_01
 ---  

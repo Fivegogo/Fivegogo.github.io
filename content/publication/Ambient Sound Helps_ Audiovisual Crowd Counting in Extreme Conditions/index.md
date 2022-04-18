@@ -16,4 +16,5 @@ url_code: https://github.com/qingzwang/AudioVisualCrowdCounting
 url_dataset: https://zenodo.org/record/3828468  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2020_03_01
 ---  

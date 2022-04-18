@@ -11,4 +11,5 @@ url_pdf: https://arxiv.org/pdf/2104.02026.pdf
 url_code: https://github.com/YapengTian/CCOL-CVPR21  
 topic_types: ["1"]
 topic_types_name: Test
+rating : 2021_03_04
 ---  
