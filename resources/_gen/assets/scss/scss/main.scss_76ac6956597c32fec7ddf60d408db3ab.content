@@ -8158,7 +8158,7 @@ ul.share li:hover i {
   margin-top: 12px; }
 
 .media.stream-item img {
-  max-width: 150px;
+  max-width: 320px;
   height: auto;
   object-fit: cover; }
 

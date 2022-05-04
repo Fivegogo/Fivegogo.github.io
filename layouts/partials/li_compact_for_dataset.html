@@ -34,38 +34,15 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <!-- <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a> -->
-      {{ $item.Title }}
+        <a style="color:rgb(25, 146, 212);" href="{{ .RelPermalink }}">{{ $item.Title }}</a>
     </h3>
-
-    <!-- {{ with $summary }}
-    <div class="article-style">
-      {{ . | truncate 135 }}
-    </div>
-    {{ end }} -->
 
     <div class="stream-meta article-metadata">
 
-      {{ if eq $item.Type "talk" }}
-      <div>
-        <span>
-          {{ partial "functions/get_event_dates" $item }}
-        </span>
-        {{ with $item.Params.location }}
-        <span class="middot-divider"></span>
-        <span>{{ . }}</span>
-        {{ end }}
-      </div>
-      {{ end }}
+      <p>
+        {{ $item.Summary }}
+      </p>
 
-
-      {{ if and $show_authors_only $item.Params.authors }}
-      <div>
-        {{ partial "page_metadata_authors" $item }}
-      </div>
-      {{ else if not $show_authors_only }}
-        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-      {{ end }}
     </div>
 
     {{ if $show_buttons }}

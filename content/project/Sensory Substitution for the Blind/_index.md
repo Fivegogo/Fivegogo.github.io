@@ -1,6 +1,6 @@
 ---
 title: Sensory Substitution for the Blind
-summary: 
+summary: good
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org

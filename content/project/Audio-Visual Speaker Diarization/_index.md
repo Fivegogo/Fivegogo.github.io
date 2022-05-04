@@ -1,6 +1,6 @@
 ---
 title: Audio-Visual Speaker Diarization
-summary: 
+summary: hello
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
