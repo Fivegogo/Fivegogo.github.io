@@ -3,12 +3,12 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
 title = "GeWu-Lab"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "logo.svg"
+hero_media = "logo_v2.svg"
 
 [design.background]
   # Apply a background color, gradient, or image.

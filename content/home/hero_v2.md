@@ -1,14 +1,14 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "hero_v2"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 2  # Order that this section will appear.
 
 title = "格物实验室"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "logo.svg"
+hero_media = "logo_v1.svg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -17,7 +17,7 @@ hero_media = "logo.svg"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#ffffff"
+  color = "#f6f6f6"
 
   # Background gradient.
   # gradient_start = "#4bb4e3"
