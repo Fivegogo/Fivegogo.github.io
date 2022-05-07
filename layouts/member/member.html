@@ -3,163 +3,54 @@
 {{/* Initialise */}}
 {{ $ := . }}
 {{ $page := . }}
-
-{{ $author := "admin" }}
-
-{{ $person_page_path := (printf "/content/authors/%s" (urlize $author)) }}
-{{ $person_page := site.GetPage $person_page_path }}
-{{ $person := $person_page.Params }}
-{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
-
-<!-- About widget -->
-<div style="width: 98%;">
-<div class="row justify-content-center">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      {{ if site.Params.gravatar }}
-      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" alt="Avatar">
-      {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <img class="portrait" src="{{ $avatar_image.RelPermalink }}" alt="Avatar">
-      {{ end }}
-
-      <div class="portrait-title">
-        <h2>{{ $person.name }}</h2>
-        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
-
-        {{ range $person.organizations }}
-        <h3>
-          {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-          <span>{{ .name }}</span>
-          {{ if .url }}</a>{{ end }}
-        </h3>
-        {{ end }}
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        {{ range $person.social }}
-        {{ $pack := or .icon_pack "fas" }}
-        {{ $pack_prefix := $pack }}
-        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-          {{ $pack_prefix = "fa" }}
-        {{ end }}
-        {{ $link := .link }}
-        {{ $scheme := (urls.Parse $link).Scheme }}
-        {{ $target := "" }}
-        {{ if not $scheme }}
-          {{ $link = .link | relLangURL }}
-        {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-        <li>
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
-            <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1> Leader </h1>{{ end }}
-
-    {{ $person_page.Content }}
-
-    <div class="row">
-
-      {{ with $person.interests }}
-      <div class="col-md-5">
-        <h3>{{ i18n "interests" | markdownify }}</h3>
-        <ul class="ul-interests">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
-      {{ with $person.education }}
-      <div class="col-md-7">
-        <h3>{{ i18n "education" | markdownify }}</h3>
-        <ul class="ul-edu fa-ul">
-          {{ range .courses }}
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
-    </div>
-  </div>
-</div>
-</div>
-
-
-{{ $show_social := $page.Params.design.show_social | default false }}
-{{ $show_interests := $page.Params.design.show_interests | default true }}
-
-<div style="width: 95%;" class="row justify-content-center people-widget">
-    {{ with $page.Title }}
-    <div class="col-md-12 section-heading">
-      <h1>{{ . | markdownify | emojify }}</h1>
-      {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
-    </div>
-    {{ end }}
   
-    {{ with $page.Content }}
-    <div class="col-md-12">
-      {{ . }}
-    </div>
-    {{ end }}
-  
+<div class="container">
     {{ range $page.Params.content.user_groups }}
-    {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
-  
-    {{if $query}}
-    <div class="col-md-12">
-      <h2 class="mb-4">{{ . | markdownify }}</h2>
-    </div>
-    {{end}}
-  
-    {{ range $query  }}
-    {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-    {{/* Get link to user's profile page. */}}
-    {{ $link := "" }}
-    {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
-      {{ $link = .Params.website_url }}
+        {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+        {{if $query}}
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <div style="margin:0 auto;">
+                    <h1>{{ . | markdownify }}</h1>
+                    <hr style="background-color: #2962ff;"/>
+                </div>
+            </div>
+            
+            {{ range $query }}
+                {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+                {{/* Get link to user's profile page. */}}
+                {{ $link := "" }}
+                {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+                    {{ $link = .Params.website_url }}
+                {{ end }}
+                <div class="row">
+                    <div class="col12 col-lg-4">
+                        <div id="profile">
+                            {{ $src := "" }}
+                            {{ if site.Params.gravatar }}
+                                {{ $src = printf "https://s.gravatar.com/avatar/%s?s=200" (md5 .Params.email) }}
+                            {{ else if $avatar }}
+                                {{ $avatar_image := $avatar.Fill "150x150 Center" }}
+                                {{ $src = $avatar_image.RelPermalink }}
+                            {{ end }}
+                            {{ if $src }}
+                                {{with $link}}
+                                    <a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
+                                {{end}}
+                            {{ end }}
+                
+                            <div class="portrait-title">
+                                <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Params.name }}{{if $link}}</a>{{end}}</h2>
+                                {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center;" class="col-12 col-lg-8">
+                        <p>{{ .Content }}</p>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
     {{ end }}
-    <div class="col-12 col-sm-auto people-person">
-      {{ $src := "" }}
-      {{ if site.Params.gravatar }}
-        {{ $src = printf "https://s.gravatar.com/avatar/%s?s=200" (md5 .Params.email) }}
-      {{ else if $avatar }}
-        {{ $avatar_image := $avatar.Fill "150x150 Center" }}
-        {{ $src = $avatar_image.RelPermalink }}
-      {{ end }}
-      {{ if $src }}
-        {{with $link}}<a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
-      {{ end }}
-  
-      <div class="portrait-title">
-        <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Params.name }}{{if $link}}</a>{{end}}</h2>
-        {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
-        {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
-        {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
-      </div>
-    </div>
-    {{ end }}
-    {{ end }}
-  </div>
-  
+</div>
 
 {{- end -}}

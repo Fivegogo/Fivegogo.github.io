@@ -1,6 +1,6 @@
 ---
 title: Audio-Visual Speaker Diarization
-summary: hello
+summary: 这里加上对项目的一个简要介绍(最多100个字符)
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org

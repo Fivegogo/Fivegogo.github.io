@@ -1,6 +1,6 @@
 ---
-title: auDIoviSual Crowd cOunting dataset (DISCO)
-summary: 2222
+title: "<b>DISCO</b>: au<b>D</b><b>I</b>ovi<b>S</b>ual <b>C</b>rowd c<b>O</b>unting dataset"
+summary: 这里加上对数据集的一个简要介绍(最多100个字符)
 dataset: true
 # Optional external URL for project (replaces project detail page).
 external_link: https://zenodo.org/record/3828468

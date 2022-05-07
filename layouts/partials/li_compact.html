@@ -31,9 +31,16 @@
 {{ end }}
 
 <div class="media stream-item">
-  <div class="media-body">
+  <div class="ml-3">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ with $resource }}
+    {{ $image := .Resize "320x160" }}
+        <img src="{{ $image.RelPermalink }}" alt="">
+    {{end}}
+  </div>
+  <div style="margin-left: 4px;" class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <h3 id="html_inner" class="article-title mb-0 mt-0">
       <!-- <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a> -->
       {{ $item.Title }}
     </h3>
@@ -75,11 +82,5 @@
     {{ end }}
 
   </div>
-  <div class="ml-3">
-    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-    {{ with $resource }}
-    {{ $image := .Resize "320x160" }}
-      <img src="{{ $image.RelPermalink }}" alt="">
-    {{end}}
-  </div>
+  
 </div>

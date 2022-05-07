@@ -7137,10 +7137,10 @@ pre code {
   overflow-x: auto; }
 
 hr {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+  padding: 0 20px 0;
+  margin: 20px 0;
+  margin-top: 10px;
+  line-height: 1px; }
 
 /* Quotes */
 blockquote {
@@ -7831,7 +7831,7 @@ ul.nav-icons li.nav-item a.nav-link {
 
 .form-control:focus {
   border-color: #2962ff;
-  box-shadow: 0 0 0 0.2rem #5c87ff; }
+  box-shadow: 0 0 0 0.1rem #5c87ff; }
 
 /* DARK themed components. */
 /* Algolia search input */

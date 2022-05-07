@@ -1,6 +1,6 @@
 ---
-title: AuDio Visual Aerial sceNe reCognition datasEt (ADVANCE)
-summary: This is a little dataset
+title: "<b>ADVANCE</b>: <b>A</b>u<b>D</b>io <b>V</b>isual <b>A</b>erial sce<b>N</b>e re<b>C</b>ognition datas<b>E</b>t"
+summary: 这里加上对数据集的一个简要介绍(最多100个字符)
 dataset: true
 # Optional external URL for project (replaces project detail page).
 external_link: https://zenodo.org/record/3828124
