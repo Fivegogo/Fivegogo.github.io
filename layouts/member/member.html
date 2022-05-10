@@ -23,7 +23,7 @@
                     {{ $link = .Params.website_url }}
                 {{ end }}
                 <div class="row">
-                    <div class="col12 col-lg-4">
+                    <div class="col-12 col-lg-4 people-person">
                         <div id="profile">
                             {{ $src := "" }}
                             {{ if site.Params.gravatar }}
@@ -34,7 +34,9 @@
                             {{ end }}
                             {{ if $src }}
                                 {{with $link}}
-                                    <a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
+                                    <div class="people-widget">
+                                        <a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
+                                    </div>
                                 {{end}}
                             {{ end }}
                 
@@ -49,6 +51,52 @@
                     </div>
                 </div>
             {{ end }}
+        {{ end }}
+    {{ end }}
+    
+</div>
+
+<div class="container">
+    {{ range $page.Params.content.user_groups2 }}
+        {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+        {{if $query}}
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <div style="margin:0 auto;">
+                    <h1>{{ . | markdownify | emojify }}</h1>
+                    <hr style="background-color: #2962ff;"/>
+                </div>
+            </div>
+            <div class="row justify-content-center people-widget">
+                {{ range $query }}
+                    {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+                    {{/* Get link to user's profile page. */}}
+                    {{ $link := "" }}
+                    {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+                        {{ $link = .Params.website_url }}
+                    {{ end }}
+                    <div class="col-12 col-sm-auto people-person">
+                        {{ $src := "" }}
+                            {{ if site.Params.gravatar }}
+                                {{ $src = printf "https://s.gravatar.com/avatar/%s?s=200" (md5 .Params.email) }}
+                            {{ else if $avatar }}
+                                {{ $avatar_image := $avatar.Fill "150x150 Center" }}
+                                {{ $src = $avatar_image.RelPermalink }}
+                            {{ end }}
+                            {{ if $src }}
+                                {{with $link}}
+                                    <div class="people-widget">
+                                        <a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
+                                    </div>
+                                {{end}}
+                            {{ end }}
+                    
+                        <div class="portrait-title">
+                            <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Params.name }}{{if $link}}</a>{{end}}</h2>
+                            {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
         {{ end }}
     {{ end }}
 </div>
