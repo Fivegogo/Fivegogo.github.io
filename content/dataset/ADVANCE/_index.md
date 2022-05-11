@@ -8,8 +8,8 @@ image:
   caption: 
   focal_point: Smart
 
-people: ["a.jpg","b.jpg","c.jpg"]
-people_links: ["https://www.baidu.com","https://www.google.com","https://www.baidu.com"]
+people: ["Di Hu","Di Hu","Di Hu"]
+people_links: ["https://dtaoo.github.io/","https://dtaoo.github.io/","https://dtaoo.github.io/"]
 desc: 
 
 rating: 2021_1_1

@@ -67,28 +67,26 @@
 
 {{/* add the people*/}}
 
-
+{{ $base_url:= .RelPermalink}}
 {{$people_url:= .Params.people_links}}
 
-{{range $index, $element := .Params.people}}
-  <p>{{$index}}</p>
-  <p>{{$element}}</p>
-  <p> {{index $people_url $index}}</p>
-{{end}}
+<div class="container">
+  <div class="row justify-content-center people-widget"> 
+  {{range $index, $person := .Params.people}}
 
+  {{$people_web:= index $people_url $index}}
+  {{$people_pic:= print $base_url $person ".jpg"}}
+    <div class="col-12 col-sm-auto people-person">
+          <a href="{{$people_web}}"><img class="portrait" src="{{ $people_pic }}" alt="Avatar"></a>
 
-<!-- {{ $base_url:= .RelPermalink}}
-{{with $.Params.people}}
-  {{range . }}
-    <div>
-      {{$temp:= .}}
-      {{$src:= print $base_url  $temp}}
-      <img src="{{$src}}">
+    <div class="portrait-title">
+    <h2><a href="{{$people_web}}">{{ $person }}</a></h2>
     </div>
-  {{end}}
-{{end}}  -->
+    </div>
+    {{end}}
+  </div>
 
-
+</div>
 
 
 {{/* Featured image */}}
