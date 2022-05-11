@@ -11,4 +11,5 @@ website_url: http://www.kaito.org.cn/  # 可以配置个人主页, 如果有的�
 user_groups:
 - Ph.D Students
 ---
-个人简介, 控制在600-800个英文字符之内
+I am an upcoming PhD student in 2022 Fall at [Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/), advised by [Prof. Di Hu](https://dtaoo.github.io/). Now my research interests focus on Cross-Modal Transfer Learning and Multi-Modal Learning.
+I will received my bachelor's degree in [Jilin University](https://www.jlu.edu.cn/) in 2022.

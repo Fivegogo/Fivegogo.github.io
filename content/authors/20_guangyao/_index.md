@@ -11,4 +11,4 @@ website_url: https://ayameyao.github.io/  # 可以配置个人主页, 如果有�
 user_groups:
 - Ph.D Students
 ---
-个人简介, 控制在600-800个英文字符之内
+I am a Ph.D. Candidate at [GeWu-Lab](https://dtaoo.github.io/group.html), [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/), advised by Prof. [Di Hu](https://dtaoo.github.io/). My recently research interests include audio-visual learning and scene understanding. Valar Morghulis！

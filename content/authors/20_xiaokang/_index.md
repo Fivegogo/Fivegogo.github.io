@@ -11,4 +11,5 @@ role: Since 2020
 user_groups:
 - Master Students
 ---
-个人简介, 控制在600-800个英文字符之内
+I am a master student in [GeWu Lab](https://dtaoo.github.io/group.html) at [Renmin University of China](https://www.ruc.edu.cn/), supervised by Prof. [Di Hu](https://dtaoo.github.io/).
+I got my I got my undergraduate degree at School of Information, Renmin University of China in 2020. I am interested in Multi-modal learning and perception, Optimization Mechanism Design. And i also devoted to help these visually impaired with thechology.

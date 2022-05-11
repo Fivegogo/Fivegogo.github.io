@@ -30,8 +30,17 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
+
+{{$web_link:=""}}
+{{if .Params.web_link}}
+  {{$web_link = .Params.web_link}}
+{{else}}
+  {{$web_link = .RelPermalink}}
+{{end}}
+
 <div class="media stream-item">
   <div class="ml-3">
+
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
     {{ $image := .Resize "320x160" }}
@@ -41,7 +50,8 @@
   <div style="margin-left: 16px;" class="media-body">
 
     <p class="article-title mb-0 mt-0">
-        <a id="html_inner" style="color:rgb(25, 146, 212);" href="{{ .RelPermalink }}">{{ $item.Title }}</a>
+      {{with $web_link}}
+        <a id="html_inner" style="color:rgb(25, 146, 212);" href="{{ . }}">{{end}}{{ $item.Title }}</a>
     </p>
 
     <div class="stream-meta article-metadata">

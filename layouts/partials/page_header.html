@@ -2,6 +2,8 @@
 {{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
 {{ $anchor := $page.Params.image.focal_point | default "Smart" }}
 
+
+
 {{/* Set default titles for node pages */}}
 {{ $title := .Title }}
 {{ if and (not $title) .IsNode }}
@@ -63,6 +65,32 @@
   {{ partial "page_links_div.html" $page }}
 </div>
 
+{{/* add the people*/}}
+
+
+{{$people_url:= .Params.people_links}}
+
+{{range $index, $element := .Params.people}}
+  <p>{{$index}}</p>
+  <p>{{$element}}</p>
+  <p> {{index $people_url $index}}</p>
+{{end}}
+
+
+<!-- {{ $base_url:= .RelPermalink}}
+{{with $.Params.people}}
+  {{range . }}
+    <div>
+      {{$temp:= .}}
+      {{$src:= print $base_url  $temp}}
+      <img src="{{$src}}">
+    </div>
+  {{end}}
+{{end}}  -->
+
+
+
+
 {{/* Featured image */}}
 <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-4" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px;">
   <div style="position: relative">
@@ -70,6 +98,11 @@
     {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
   </div>
 </div>
+
+
+
+
+
 {{else}}
   {{/* Case when page has no image */}}
 
@@ -78,13 +111,13 @@
   {{ if $page.IsNode }}
     {{ $ctnr = "universal-wrapper" }}
   {{end}}
+
 <div class="{{$ctnr}} pt-3">
   <h1>{{ $title }}</h1>
 
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
-
   {{ if not .IsNode }}
     {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
     {{ partial "page_links_div.html" $page }}
