@@ -5460,10 +5460,6 @@ button.bg-dark:focus {
 .my-3 {
   margin-bottom: 1rem !important; }
 
-.ml-3,
-.mx-3 {
-  margin-left: 1rem !important; }
-
 .m-4 {
   margin: 1.5rem !important; }
 

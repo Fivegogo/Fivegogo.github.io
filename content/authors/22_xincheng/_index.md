@@ -11,4 +11,4 @@ website_url: http://www.pangxincheng.work  # 可以配置个人主页, 如果有
 user_groups:
 - Master Students
 ---
-个人简介, 控制在300-800个英文字符之内
+Currently I’am a senior student in the [School of Software, Northwestern Polytechnical University](https://www.nwpu.edu.cn/), and decide to study for M.Sc. degree at [Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/), advised by [Prof. Di Hu](https://dtaoo.github.io/).
