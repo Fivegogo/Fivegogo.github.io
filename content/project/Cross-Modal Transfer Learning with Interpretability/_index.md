@@ -1,6 +1,6 @@
 ---
-title: CCF-Tencent Open Fund:Multi Speakers Diarization and Tracking in Dynamic Audio-Visual Scene 
-summary: This project is oriented to complex dynamic audio-visual scenes. With a cross-domain matching model to mine the consistent representation of audiovisual modalities, we establish a dialogue mechanism and improve the speaker tracking and diarization performance.
+title: Baidu Reasearch Fond:Cross-Modal Transfer Learning with Interpretability
+summary: This project is 
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org

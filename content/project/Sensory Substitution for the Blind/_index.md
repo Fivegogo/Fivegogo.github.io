@@ -1,6 +1,6 @@
 ---
 title: Sensory Substitution for the Blind
-summary: 这里加上对项目的一个简要介绍(最多100个字符)
+summary: GeWu Lab is working on how to develop more effectively cross-modal encoding scheme for the disable people with AI technique and this project is trying to help more blind-friends in China Mainland.
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
