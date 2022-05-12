@@ -11,10 +11,12 @@
   {{ range ($paginator.Pages.ByParam "rating").Reverse }}
   <div>
     {{ partial "li_compact_for_dataset" . }}
-
   </div>
   {{ end }}
 
+  {{if .Params.is_item}}
+    {{ partial "page_authors.html" . }}
+  {{end}}
   {{ partial "pagination" . }}
 </div>
 

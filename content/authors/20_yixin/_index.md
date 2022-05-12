@@ -11,4 +11,5 @@ role: Since 2020
 user_groups:
 - Master Students
 ---
-个人简介, 控制在600-800个英文字符之内
+I am a master student in [GeWu Lab](https://dtaoo.github.io/group.html), at [Renmin University of China](https://www.ruc.edu.cn/), advised by Prof. [Di Hu](https://dtaoo.github.io/).  My main interests are Multi-modal Learning and Reinforcement Learning. Now I'm working on audio-visual leaning and complex speech scene understanding.
+Previously, I received my bachelor’s degree in Computer Science and Technology from [Renmin University of China](https://www.ruc.edu.cn/) in 2020.

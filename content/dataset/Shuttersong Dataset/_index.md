@@ -1,10 +1,16 @@
 ---
 title: Shuttersong Dataset
-summary: 这里加上对数据集的一个简要介绍(最多100个字符)
+summary:  Shuttersong is a social sharing software, just like Instagram2. We collect almost the entire updated data from Shuttersong, which consists of 36,646 pairs of images and song clips.
 dataset: true
 # Optional external URL for project (replaces project detail page).
 external_link: https://drive.google.com/open?id=0B2N8XiDRrEgISXFJSXBEMWpUMDA
+is_item: true
+people: ["Xuelong Li","Di Hu","Xiaoqiang Lu"]
+people_links: ["https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en","https://dtaoo.github.io/","https://scholar.google.com.hk/citations?user=FRyuu2IAAAAJ&hl=zh-CN"]
 
+institution: ["nwpu","ruc","ucas"]
+institution_links: ["http://iopen.nwpu.edu.cn/","http://ai.ruc.edu.cn/","https://www.ucas.ac.cn/"]
+# desc: We are a group of researchers working in multi-modal learning from the Renmin University of China and University of Rochester.
 image:
   caption: 
   focal_point: Smart
