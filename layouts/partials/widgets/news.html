@@ -1,0 +1,22 @@
+{{/* News Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $page := .page }}
+<div class="row">
+    <div class="col-6 mx-auto col-md-6 order-md-1">
+        <img src="{{ printf "img/%s" $page.Params.direction_img | relURL }}" alt="">
+    </div>
+    <div></div>
+    <div class="col-md-6 order-md-2" style="border-radius:20px; box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); transition: all 0.2s ease-out;">
+        <h2>News</h2>
+        <hr/>
+        <div style="height: 450px; margin-top: 20px; overflow:auto">
+            {{ range $index, $item := $page.Params.item }}
+            <a href="{{ $item.link }}" target="_blank">{{ $item.title }}</a>  
+            <p style="color: {{ $item.subtitle_color }};">{{ $item.subtitle }}</p>
+            {{ end }}
+            {{ $page.Content }}
+        </div>
+    </div>
+</div>

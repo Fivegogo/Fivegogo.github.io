@@ -12,3 +12,12 @@
     overlay_filter = 0.5  # rgba的alpha通道, 取值范围为[0, 1], 0表示不模糊, 1表示完全模糊(即全黑)
 ```
 
+## 添加News
+1. 在`content/home/news.md`中添加一个`[[item]]`, 格式如下:
+```
+[[item]]
+    title = "新闻的主标题(例如: 发表论文: xxx同学论文被xxx会议录用)"
+    subtitle = "新闻的副标题(例如: 论文题目)"
+    subtitle_color = "#808080"  # 副标题的颜色(如果没用特殊需求, 不需要该这个)
+    link = "http://aibox.ruc.edu.cn/paper.html"  # 主标题的链接
+```

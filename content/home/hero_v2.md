@@ -2,7 +2,7 @@
 # Hero widget.
 widget = "hero_v2"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
 title = "格物实验室"
