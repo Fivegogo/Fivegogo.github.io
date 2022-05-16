@@ -1,7 +1,7 @@
 ---  
 title: "Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching"  
 authors:  
- - <b>Di Hu</b>  
+ - Di Hu
  - Rui Qian  
  - Minyue Jiang  
  - Xiao Tan  
@@ -16,7 +16,7 @@ url_pdf: https://arxiv.org/pdf/2010.05466.pdf
 url_demo: https://youtu.be/XRU-R32t6rU  
 url_code: https://github.com/DTaoo/Discriminative-Sounding-Objects-Localization  
 url_dataset: https://zenodo.org/record/4079386#.X4PFodozbb2  
-topic_types: ["1"]
-topic_types_name: Test
+topic_types: ["2"]
+topic_types_name: topic_scene_understanding
 rating : 2020_12_01
 ---  

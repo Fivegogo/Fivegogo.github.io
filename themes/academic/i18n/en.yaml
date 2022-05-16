@@ -186,9 +186,14 @@
 - id: topic_uncat
   translation: Uncategorized
 
-- id: topic_test
-  translation: Test
+- id: topic_mechanism
+  translation: Multi-Modal Learning Mechanism
 
+- id: topic_scene_understanding
+  translation: Audio-Visual Learning
+
+- id: topic_hash
+  translation: Deep Learning with hashing
 
 # Dataset details
 - id: open_dataset_site

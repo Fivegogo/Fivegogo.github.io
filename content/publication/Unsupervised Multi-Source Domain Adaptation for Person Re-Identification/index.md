@@ -4,8 +4,8 @@ authors:
  - Zechen Bai  
  - Zhigang Wang  
  - Jian Wang  
- - <b>Di Hu^</b>  
- - Errui Ding^ (^Corresponding Author)   
+ - Di Hu* 
+ - Errui Ding*
 publication_types: ["1"]  
 publication: CVPR 2021. <b>Oral Presentation</b>  
 publication_types_name: Conference Paper  

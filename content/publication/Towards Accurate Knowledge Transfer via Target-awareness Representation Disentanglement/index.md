@@ -2,7 +2,7 @@
 title: "Towards Accurate Knowledge Transfer via Target-awareness Representation Disentanglement"  
 authors:  
  - Xingjian Li  
- - <b>Di Hu</b>  
+ - Di Hu
  - Xuhong Li  
  - Haoyi Xiong  
  - Zhi Ye  

@@ -2,7 +2,7 @@
 title: "A Two-Stage Framework for Multiple Sound-Source Localization"  
 authors:  
  - Rui Qian  
- - <b>Di Hu</b>  
+ - Di Hu  
  - Heinrich Dinkel  
  - Mengyue Wu  
  - Ning Xu  
@@ -13,7 +13,7 @@ publication_types_name: Workshop Paper
 url_pdf: https://dtaoo.github.io/papers/2020_MSSL_W.pdf  
 url_video: https://www.youtube.com/watch?v=153xEWWjt-w  
 url_code: https://github.com/shvdiwnkozbw/Multi-Source-Sound-Localization  
-topic_types: ["1"]
-topic_types_name: Test
+topic_types: ["2"]
+topic_types_name: topic_scene_understanding
 rating : 2020_03_01
 ---  

@@ -4,7 +4,7 @@ authors:
  - Ziyun Li  
  - Xinshao Wang  
  - Haojin Yang  
- - <b>Di Hu</b>  
+ - Di Hu 
  - Neil M Robertson  
  - David A Clifton  
  - Christoph Meinel  

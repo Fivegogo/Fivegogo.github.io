@@ -1,7 +1,7 @@
 ---  
 title: "Class-aware Sounding Objects Localization via Audiovisual Correspondence"  
 authors:  
- - <b>Di Hu</b>  
+ - Di Hu
  - Yake Wei  
  - Rui Qian  
  - Weiyao Lin  
@@ -13,7 +13,7 @@ publication_types_name: Journal Paper
 url_pdf: https://arxiv.org/abs/2112.11749  
 url_code: https://github.com/GeWu-Lab/CSOL_TPAMI2021  
 url_project: https://gewu-lab.github.io/CSOL_TPAMI2021/  
-topic_types: ["1"]
-topic_types_name: Test
+topic_types: ["2"]
+topic_types_name: topic_scene_understanding
 rating : 2021_08_01
 ---  
