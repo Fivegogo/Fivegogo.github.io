@@ -11,7 +11,7 @@ height = "600px"
 
 [[item]]
     title = "2022-03-12"
-    content = "in restaurant after CVPR Accept"
+    content = "in restaurant after CVPR Notification"
     font_color = "#f8f8f2"
     align = "center"  # Choose `center`, `left`, or `right`.
     overlay_img = "photos/after cvpr accept.jpg"

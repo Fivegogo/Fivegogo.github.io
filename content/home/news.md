@@ -11,33 +11,33 @@ subtitle = ""
 direction_img = "boards.jpg"
 
 [[item]]
-    title = "发表论文：都一凡同学论文被 IJCAI 2022 录用"
+    title = "[11-03-2022] One paper accepted by TMM."
+    subtitle = "Congrats to all the co-authors!"
+    subtitle_color = "#808080"
+    link = "publication"
+[[item]]
+    title = "[02-03-2022] Two papers accepted by CVPR 2022, both are ORAL presentation!"
+    subtitle = "Congrats to Guangyao, Xiaokang, Yake and Andong!"
+    subtitle_color = "#808080"
+    link = "publication"
+[[item]]
+    title = "[23-12-2021] Dr. Di Hu was selected for the Young Elite Scientists Sponsorship Program by CAST!"
+    subtitle_color = "#808080"
+    link = "project"
+[[item]]
+    title = "[10-12-2021] One paper accepted by TPAMI. "
+    subtitle = "Congrats to Yake and other co-authors!"
+    subtitle_color = "#808080"
+    link = "publication"
+[[item]]
+    title = "[01-12-2021] Two papers accepted by AAAI 2022. "
+    subtitle = "Congrats to all the authors!"
+    subtitle_color = "#808080"
+    link = "publication"
+[[item]]
+    title = "[28-10-2021] Dr. Di Hu won the 2021 Outstanding Doctoral Dissertation Award of SHAANXI Province!"
     subtitle = "A Survey of Vision-Language Pre-Trained Models"
     subtitle_color = "#808080"
     link = "http://aibox.ruc.edu.cn/paper.html"
-[[item]]
-    title = "发表论文：蒋锦昊同学论文被 NAACL 2022 录用"
-    subtitle = "Great Truths are Always Simple: A Rather Simple Knowledge Encoder for Enhancing the Commonsense Reasoning Capacity of Pre-Trained Models"
-    subtitle_color = "#808080"
-    link = "http://aibox.ruc.edu.cn/paper.html"
-[[item]]
-    title = "发表论文：李军毅同学论文被 NAACL 2022 录用"
-    subtitle = "ElitePLM: An Empirical Study on General Language Ability Evaluation of Pretrained Language Models"
-    subtitle_color = "#808080"
-    link = "http://aibox.ruc.edu.cn/paper.html"
-[[item]]
-    title = "发表论文：都一凡同学论文被 IJCAI 2022 录用"
-    subtitle = "A Survey of Vision-Language Pre-Trained Models"
-    subtitle_color = "#808080"
-    link = "http://aibox.ruc.edu.cn/paper.html"
-[[item]]
-    title = "发表论文：都一凡同学论文被 IJCAI 2022 录用"
-    subtitle = "A Survey of Vision-Language Pre-Trained Models"
-    subtitle_color = "#808080"
-    link = "http://aibox.ruc.edu.cn/paper.html"
-[[item]]
-    title = "发表论文：都一凡同学论文被 IJCAI 2022 录用"
-    subtitle = "A Survey of Vision-Language Pre-Trained Models"
-    subtitle_color = "#808080"
-    link = "http://aibox.ruc.edu.cn/paper.html"
+
 +++

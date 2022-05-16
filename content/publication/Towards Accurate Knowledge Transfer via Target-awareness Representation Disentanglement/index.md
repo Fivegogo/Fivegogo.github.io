@@ -10,7 +10,7 @@ authors:
  - Chengzhong Xu  
  - Dejing Dou  
 publication_types: ["3"]  
-publication:   
+publication:   Arxiv
 publication_types_name: Preprint  
 url_pdf: https://arxiv.org/abs/2010.08532  
 topic_types: ["0"]

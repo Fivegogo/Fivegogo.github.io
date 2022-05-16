@@ -10,7 +10,7 @@ authors:
  - Ji-Rong Wen  
  - Xiao Xiang Zhu  
 publication_types: ["3"]  
-publication:   
+publication: Arxiv
 publication_types_name: Preprint  
 url_pdf: https://arxiv.org/abs/2108.00688  
 url_demo: https://www.youtube.com/watch?v=gD_fNJPBWhs  

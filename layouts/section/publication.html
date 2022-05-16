@@ -9,7 +9,7 @@
       {{ with .Content }}
       <div class="article-style">{{ . }}</div>
       {{ end }}
-
+      <p>(* represents the corresponding authors)</p>
       {{/* Array of distinct years. */}}
       {{ range .Pages.ByDate.Reverse }}
         {{ $year := print (.Date.Format "2006") }}

@@ -51,4 +51,4 @@ hero_media = "logo_v1.svg"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-GeWu Lab focus to make machine perceive and understand the world as human with multi-sensory knowledge. We also explore the multi-modal learning mechanism with the motivation of cognitive neuroscience for robots to get robust and interpretable performance.
+GeWu Lab focus to make machine perceive and understand the world as human with multi-sensory knowledge. Gewu is taken from [The Great Learning](https://zh.wikipedia.org/wiki/%E7%A4%BC%E8%AE%B0), which means we want to pursue the very source of knowledge with the multi-sensory machine learning and do the down-to-earth research to make contribution to social development.
