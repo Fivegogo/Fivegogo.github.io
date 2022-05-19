@@ -11,5 +11,4 @@ role: Since 2020
 user_groups:
 - Master Students
 ---
-I am a master student in [GeWu Lab](https://dtaoo.github.io/group.html), at [Renmin University of China](https://www.ruc.edu.cn/), advised by Prof. [Di Hu](https://dtaoo.github.io/).  My main interests are Multi-modal Learning and Reinforcement Learning. Now I'm working on audio-visual leaning and complex speech scene understanding.
-Previously, I received my bachelor’s degree in Computer Science and Technology from [Renmin University of China](https://www.ruc.edu.cn/) in 2020.
+Yixin is a master student at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/), advised by [Di Hu](https://dtaoo.github.io/).  His main interests are Multi-modal Scene Perception and Self-surpervised Representation Learning. Now he is working on video understanding and speaker diarization task for complex speech scenario.
