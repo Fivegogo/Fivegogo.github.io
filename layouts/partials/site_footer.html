@@ -11,7 +11,7 @@
     </p>
     {{ end }}
     <p class="powered-by">
-      {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
+      {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} {{ end }}
       <br/>
       {{ $addr_formatted := partial "functions/get_address" (dict "root" . "address" site.Params.address) }}
       {{ $addr_formatted }}
