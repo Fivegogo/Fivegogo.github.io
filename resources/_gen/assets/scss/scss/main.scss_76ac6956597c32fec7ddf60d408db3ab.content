@@ -7138,7 +7138,6 @@ pre code {
 
 hr {
   padding: 0 20px 0;
-  margin: 20px 0;
   margin-top: 10px;
   line-height: 1px; }
 
