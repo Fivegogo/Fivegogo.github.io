@@ -34,6 +34,20 @@
                 </a>
             </li>
         {{ end }}
+
+        {{ if $page.Params.email.url }}
+            {{ $pack := or $page.Params.email.icon_pack "fas" }}
+            {{ $pack_prefix := $pack }}
+            {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+                {{ $pack_prefix = "fa" }}
+            {{ end }}
+            {{ $link := $page.Params.email.url }}
+            <li style="width: 60px;">
+                <a  href="mailto:{{ $link }}">
+                    <i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.email.icon }} big-icon"></i>
+                </a>
+            </li>
+        {{ end }}
     </ul>
 </div>
 

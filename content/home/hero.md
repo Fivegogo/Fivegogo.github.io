@@ -54,8 +54,8 @@ hero_media = "logo_v1.svg"
   icon_pack = "fab"
   icon = "github"
 
-[[cta]]
-  link = "matilto:dihu@ruc.edu.cn"
+[email]
+  url = "dihu@ruc.edu.cn"
   icon = "envelope"
   icon_pack = "fas"
 +++
