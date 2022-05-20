@@ -8,7 +8,7 @@ authors:
  - Feiping Nie  
  - Dejing Dou  
 publication_types: ["3"]  
-publication:   
+publication:   Arxiv
 publication_types_name: Preprint  
 url_pdf: https://arxiv.org/abs/2001.09414  
 topic_types: ["2"]

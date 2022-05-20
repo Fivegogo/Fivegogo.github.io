@@ -11,5 +11,5 @@ publication_types_name: Conference Paper
 url_pdf: https://dtaoo.github.io/papers/2019_DMN.pdf  
 topic_types: ["2"]
 topic_types_name: topic_scene_understanding
-rating : 2019_10_01
+rating : 2019_01_01
 ---  

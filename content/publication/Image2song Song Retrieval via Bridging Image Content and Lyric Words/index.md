@@ -12,5 +12,5 @@ url_demo: https://www.youtube.com/watch?v=kuClfGG0cFU
 url_video: https://www.youtube.com/watch?v=-2qw9smT5Rw  
 topic_types: ["2"]
 topic_types_name: topic_scene_understanding
-rating : 2017_03_01
+rating : 2017_07_01
 ---  

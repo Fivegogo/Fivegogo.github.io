@@ -11,5 +11,5 @@ url_pdf: https://dtaoo.github.io/papers/2018_DLDAH_SM.pdf
 url_code: https://dtaoo.github.io/code/DLDAH_code.zip  
 topic_types: ["3"]
 topic_types_name: topic_hash
-rating : 2019_03_01
+rating : 2019_08_01
 ---  

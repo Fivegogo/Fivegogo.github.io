@@ -13,5 +13,5 @@ url_pdf: https://arxiv.org/abs/2104.12961
 url_code: https://github.com/Neverland610/MSUDA_REID  
 topic_types: ["0"]
 topic_types_name: Uncategorized
-rating : 2020_03_01
+rating : 2021_03_01
 ---  
