@@ -7909,7 +7909,6 @@ article {
   font-size: 1.75rem; }
 
 .article-title a {
-  color: #151515;
   transition: color 0.6s ease; }
 
 .dark .text-muted {
@@ -8313,9 +8312,6 @@ ul.share li:hover i {
 
 .wg-hero.dark a:not(.wg-hero .btn) {
   color: #fff; }
-
-.wg-hero .hero-lead a {
-  text-decoration: underline; }
 
 .wg-hero .cta-btns {
   margin-bottom: 16px; }

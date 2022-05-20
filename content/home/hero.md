@@ -7,6 +7,8 @@ weight = 1  # Order that this section will appear.
 
 title = "GeWu-Lab"
 
+content_color = "#808080"
+
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "logo_v1.svg"
 
@@ -37,18 +39,25 @@ hero_media = "logo_v1.svg"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 # [cta]
-#   url = "https://sourcethemes.com/academic/docs/install/"
-#   label = "Get Started"
-#   icon_pack = "fas"
-#   icon = "download"
+#    url = "https://sourcethemes.com/academic/docs/install/"
+#    # label = "Get Started"
+#    icon_pack = "fas"
+#    icon = "download"
+# 这里的icon_pack和icon的使用方法详见`https://wowchemy.com/docs/getting-started/page-builder/` 中的icons一节
+[[cta]]
+  url = "https://www.zhihu.com/column/c_1280978171983507456"
+  icon_pack = "fab"
+  icon = "zhihu"
   
-# [cta_alt]
-#   url = "https://sourcethemes.com/academic/"
-#   label = "View Documentation"
+[[cta]]
+  url = "https://github.com/GeWu-Lab"
+  icon_pack = "fab"
+  icon = "github"
 
-# Note. An optional note to show underneath the links.
-# [cta_note]
-#   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+[[cta]]
+  link = "matilto:dihu@ruc.edu.cn"
+  icon = "envelope"
+  icon_pack = "fas"
 +++
 
-GeWu Lab focus to make machine perceive and understand the world as human with multi-sensory knowledge. Gewu is taken from [The Great Learning](https://zh.wikipedia.org/wiki/%E7%A4%BC%E8%AE%B0), which means we want to pursue the very source of knowledge with the multi-sensory machine learning and do the down-to-earth research to make contribution to social development.
+GeWu Lab focus to make machine perceive and understand the world as human with multi-sensory knowledge. Gewu is taken from <a href="https://zh.wikipedia.org/wiki/%E7%A4%BC%E8%AE%B0">The Great Learning</a>, which means we want to pursue the very source of knowledge with the multi-sensory machine learning and do the down-to-earth research to make contribution to social development.
