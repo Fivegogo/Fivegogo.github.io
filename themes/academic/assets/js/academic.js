@@ -136,7 +136,7 @@
     },
     filter: function() {
       let $this = $(this);
-      console.log($this)
+    //   console.log($this)
       let searchResults = searchRegex_topic ? $this.text().match( searchRegex_topic ) : true;
       let filterResults_topic = filterValues_topic ? $this.is( filterValues_topic ) : true;
       let filterResults_pub =  filterValues_pub ? $this.is(filterValues_pub) : true;
