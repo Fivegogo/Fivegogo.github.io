@@ -8,7 +8,7 @@ weight = 2  # Order that this section will appear.
 title = ""
 subtitle = ""
 
-direction_img = "boards.jpg"
+direction_img = "boards_new.jpg"
 
 [[item]]
     title = "[11-03-2022] One paper accepted by TMM."
