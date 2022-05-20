@@ -6985,7 +6985,7 @@ a.text-dark:hover, a.text-dark:focus {
  *  Academic's Core
  **************************************************/
 html {
-  font-family: Roboto, sans-serif;
+  font-family: "Times New Roman", Roboto, sans-serif;
   font-size: 16.17px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
