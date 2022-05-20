@@ -10,7 +10,7 @@ authors:
  - Bolei Zhou  
  - Xiaowei Zhou  
 publication_types: ["1"]  
-publication: AAAI 2022   
+publication: Association for the Advancement of Artificial Intelligence(AAAI) 2022   
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/abs/2202.06406  
 url_code: https://github.com/alvinliu0/Visual-Sound-Localization-in-the-Wild  

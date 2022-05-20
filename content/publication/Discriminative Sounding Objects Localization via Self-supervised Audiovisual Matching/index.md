@@ -10,7 +10,7 @@ authors:
  - Weiyao Lin  
  - Dejing Dou  
 publication_types: ["1"]  
-publication: NeurIPS 2020   
+publication: Neural Information Processing Systems(NeurIPS) 2020   
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/pdf/2010.05466.pdf  
 url_demo: https://youtu.be/XRU-R32t6rU  

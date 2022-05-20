@@ -5,7 +5,7 @@ authors:
  - Di Hu*  
  - Chenliang Xu  
 publication_types: ["1"]  
-publication: CVPR 2021   
+publication: Computer Vision and Pattern Recognition(CVPR) 2021   
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/pdf/2104.02026.pdf  
 url_code: https://github.com/YapengTian/CCOL-CVPR21  

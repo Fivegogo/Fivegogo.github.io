@@ -9,7 +9,7 @@ authors:
  - Ziwei Liu  
  - Wanli Ouyang  
 publication_types: ["1"]  
-publication: AAAI 2022  
+publication: Association for the Advancement of Artificial Intelligence(AAAI) 2022  
 publication_types_name: Conference Paper  
 url_pdf: https://www.aaai.org/AAAI22Papers/AAAI-11517.ZhouD.pdf  
 topic_types: ["2"]

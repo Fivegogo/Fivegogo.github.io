@@ -6,7 +6,7 @@ authors:
  - Xingjian Li  
  - Dejing Dou 
 publication_types: ["1"]  
-publication: AAAI 2021   
+publication: Association for the Advancement of Artificial Intelligence(AAAI) 2021   
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/abs/2012.07508  
 url_code: https://github.com/redwang/DTGRM  

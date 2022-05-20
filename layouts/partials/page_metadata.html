@@ -11,7 +11,7 @@
     {{ partial "page_metadata_authors" $page }}
   </div>
   <div>
-    <span>{{ $page.Params.publication }}</span>
+    <span>{{ $page.Params.publication | markdownify }}</span>
   </div>
   {{ end }}
   {{ end }}

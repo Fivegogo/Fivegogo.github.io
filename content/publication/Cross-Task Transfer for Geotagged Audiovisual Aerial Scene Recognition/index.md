@@ -10,7 +10,7 @@ authors:
  - Xiaoxiang Zhu  
  - Dejing Dou  
 publication_types: ["1"]  
-publication: ECCV 2020   
+publication: European Conference on Computer Vision(ECCV) 2020   
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/pdf/2005.08449.pdf  
 url_code: https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition  

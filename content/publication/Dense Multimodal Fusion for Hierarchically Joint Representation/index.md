@@ -6,7 +6,7 @@ authors:
  - Feiping Nie  
  - Xuelong Li  
 publication_types: ["1"]  
-publication: ICASSP 2019. Lecture Presentation   
+publication: International Conference on Acoustics, Speech and Signal Processing(ICASSP) 2019 <b>Lecture Presentation</b>   
 publication_types_name: Conference Paper  
 url_pdf: https://dtaoo.github.io/papers/2019_DMN.pdf  
 topic_types: ["2"]

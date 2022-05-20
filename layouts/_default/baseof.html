@@ -21,12 +21,4 @@
   {{ partial "citation" . }}
 
 </body>
-<script>
-    var tbody = document.querySelectorAll("[id='html_inner']");
-    if (tbody !== null) {
-        for (let i = 0; i < tbody.length; i++) {
-            tbody[i].innerHTML = tbody[i].innerText;
-        }
-    }
-</script>
 </html>

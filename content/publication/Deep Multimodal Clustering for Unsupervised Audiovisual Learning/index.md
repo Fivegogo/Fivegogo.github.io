@@ -5,7 +5,7 @@ authors:
  - Feiping Nie    
  - Xuelong Li  
 publication_types: ["1"]  
-publication: CVPR 2019
+publication: Computer Vision and Pattern Recognition(CVPR) 2019
 publication_types_name: Conference Paper  
 url_pdf: https://dtaoo.github.io/papers/2019_DMC.pdf
 url_demo: https://dtaoo.github.io/demo/DMC_demo.mp4  
