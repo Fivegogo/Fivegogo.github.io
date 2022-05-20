@@ -4,7 +4,7 @@
 {{ $ := .root }}
 {{ $page := .page }}
 <div class="row">
-    <div class="col-6 mx-auto col-md-6 order-md-1">
+    <div class="col-6 mx-auto col-md-6 order-md-1" style="display: flex; align-items: center;">
         <img src="{{ printf "img/%s" $page.Params.direction_img | relURL }}" alt="">
     </div>
     <div></div>
