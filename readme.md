@@ -1,5 +1,9 @@
 ## 主页使用教程
-由于时间仓促, 教程中可能有问题, 可以参照content目录下已有的项目仿照着写就好了
+由于时间仓促, 教程中可能有问题, 可以参照content目录下已有的项目仿照着写就好了  
+### 第一步
+1. clone本仓库, 然后按照下面的步骤修改
+2. 修改完之后, 使用`hugo -d docs`生成文件到docs文件夹下(需要安装hugo, hugo的版本0.66.0, hugo的安装非常简单)  
+3. push到github上, 等待几分钟, 就可以完成更新  
 ### 添加相册
 1. 将图片添加到`static/img/photos`下(例如`WechatIMG241.jpeg`)  
 2. 在`content/gallery/_index.md`中添加一个`[[item]]`, 格式如下:
