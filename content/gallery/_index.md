@@ -30,7 +30,7 @@ height = "600px"
 
 [[item]]
     title = "2022-01-01"
-    content = "Happy New Year's Day"
+    content = "Happy New Year"
     font_color = "#f8f8f2"
     align = "center"  # Choose `center`, `left`, or `right`.
     overlay_img = "photos/yuandan.jpg"

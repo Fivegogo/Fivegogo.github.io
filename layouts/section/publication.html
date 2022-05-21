@@ -59,7 +59,6 @@
 
         {{ range (.Pages.ByParam "rating").Reverse }}
         
-
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
           {{ $.Scratch.Set "topictype" (index .Params.topic_types 0) }}

@@ -136,7 +136,9 @@
     },
     filter: function() {
       let $this = $(this);
-    //   console.log($this)
+      // console.log($this)
+      // console.log(filterValues_pub)
+      // console.log(filterValues_topic)
       let searchResults = searchRegex_topic ? $this.text().match( searchRegex_topic ) : true;
       let filterResults_topic = filterValues_topic ? $this.is( filterValues_topic ) : true;
       let filterResults_pub =  filterValues_pub ? $this.is(filterValues_pub) : true;
@@ -178,7 +180,6 @@
 
   $('.topic-filters').on( 'change', function() {
     let $this = $(this);
-
     // Get group key.
 
     let filterGroup = $this[0].getAttribute('data-filter-group');
@@ -186,7 +187,7 @@
 
     // Set filter for group.
     topicFilters[ filterGroup ] = this.value;
-
+    
     // Combine filters.
     filterValues_topic = concatValues( topicFilters );
 
@@ -211,9 +212,9 @@
     let filterValue = '*';
 
     // Check if hash is numeric.
-    if (urlHash != '' && !isNaN(urlHash)) {
-      filterValue = '.topictype-' + urlHash;
-    }
+    // if (urlHash != '' && !isNaN(urlHash)) {
+    //   filterValue = '.topictype-' + urlHash;
+    // }
 
     // Set filter.
     let filterGroup = 'topictype';
@@ -276,9 +277,12 @@
     // Set filter for group.
     pubFilters[ filterGroup ] = this.value;
 
+    console.log(this.value)
+
     // Combine filters.
     filterValues_pub = concatValues( pubFilters );
 
+    console.log(filterValues_pub)
     // Activate filters.
     $grid_topic.isotope();
 
