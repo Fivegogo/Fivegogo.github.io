@@ -8,7 +8,7 @@
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
-  {{ range ($paginator.Pages.ByParam "rating").Reverse }}
+  {{ range sort $paginator.Pages ".Params.weight" }}
   <div>
     {{ partial "li_compact_for_dataset" . }}
   </div>
