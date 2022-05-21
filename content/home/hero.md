@@ -60,4 +60,4 @@ hero_media = "logo_v1.svg"
   icon_pack = "fas"
 +++
 
-GeWu Lab focus to make machine perceive and understand the world as human with multi-sensory knowledge. Gewu is taken from <a href="https://zh.wikipedia.org/wiki/%E7%A4%BC%E8%AE%B0">The Great Learning</a>, which means we want to pursue the very source of knowledge with the multi-sensory machine learning and do the down-to-earth research to make contribution to social development.
+GeWu-Lab is a research group focusing on how to make the machine perceive and understand the world as our humans, especially with multimodal messages, such as vision, sound, tactile etc. GeWu (“格物” in Chinese) is taken from [Book of Rites](https://en.wikipedia.org/wiki/Book_of_Rites), which implies that we aim to equip the machine with the ability of learning from multiple modalities, under the direction of doing valuable contribution to the community and society. If you are interested in our lab, you can learn more via the following ways.
