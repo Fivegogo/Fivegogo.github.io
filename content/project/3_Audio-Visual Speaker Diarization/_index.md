@@ -1,5 +1,5 @@
 ---
-title: CCF-Tencent Open Funding Multi Speakers Diarization and Tracking in Dynamic Audio-Visual Scene 
+title: Tencent AI Lab Rhino-Bird Focused Research Program  
 summary: This project is oriented to complex dynamic audio-visual scenes. With a cross-domain matching model to mine the consistent representation of audiovisual modalities, we establish a dialogue mechanism and improve the speaker tracking and diarization performance.
 
 # Optional external URL for project (replaces project detail page).

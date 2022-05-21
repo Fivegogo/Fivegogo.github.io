@@ -1,5 +1,5 @@
 ---
-title: Baidu Reasearch Funding Cross-Modal Knowledge Distillation with Interpretability
+title: aidu Research Program of Cross-Modal Knowledge Distillation with Interpretability  
 summary: This project is proposed to transfer cross-modal knowledge for the unconstrained videos. We consider the heterogeneous audio-visual correspondence in in-the-wild videos to improve the performance of cross-modal knowledge distillation.
 
 # Optional external URL for project (replaces project detail page).
