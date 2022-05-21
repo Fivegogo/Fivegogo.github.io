@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | GeWu-Lab</title>
+    <link>/publication_types/1/</link>
+      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2022 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>1</title>
+      <link>/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
+      <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
+      <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation</title>
+      <link>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Multimodal Clustering for Unsupervised Audiovisual Learning Representation</title>
+      <link>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dense Multimodal Fusion for Hierarchically Joint Representation</title>
+      <link>/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
+      <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Graph Hashing with Spectral Rotation</title>
+      <link>/publication/large-graph-hashing-with-spectral-rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/large-graph-hashing-with-spectral-rotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listen to the Image</title>
+      <link>/publication/listen-to-the-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/listen-to-the-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimodal Learning via Exploring Deep Semantic Similarity</title>
+      <link>/publication/multimodal-learning-via-exploring-deep-semantic-similarity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multimodal-learning-via-exploring-deep-semantic-similarity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Sound Sources Localization from Coarse to Fine</title>
+      <link>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SepFusion: Finding Optimal Fusion Structures for Visual Sound Separation</title>
+      <link>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Multimodal Learning in Audiovisual Speech Recognition</title>
+      <link>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Relational Modeling with Self-Supervision for Action Segmentation</title>
+      <link>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Multi-Source Domain Adaptation for Person Re-Identification</title>
+      <link>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Sound Localization in-the-Wild by Cross-Modal Interference Erasing</title>
+      <link>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

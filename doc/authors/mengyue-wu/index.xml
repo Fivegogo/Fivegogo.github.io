@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mengyue Wu | GeWu-Lab</title>
+    <link>/authors/mengyue-wu/</link>
+      <atom:link href="/authors/mengyue-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mengyue Wu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2022 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Mengyue Wu</title>
+      <link>/authors/mengyue-wu/</link>
+    </image>
+    
+    <item>
+      <title>Multiple Sound Sources Localization from Coarse to Fine</title>
+      <link>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
