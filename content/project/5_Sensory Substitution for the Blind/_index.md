@@ -4,7 +4,6 @@ summary: GeWu Lab is working on how to develop more effectively cross-modal enco
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
-
 image:
   caption:
   focal_point: Smart

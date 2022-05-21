@@ -4,7 +4,6 @@ summary: This project is proposed to transfer cross-modal knowledge for the unco
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
-
 image:
   caption:
   focal_point: Smart

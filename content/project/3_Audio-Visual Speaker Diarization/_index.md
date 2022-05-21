@@ -4,7 +4,6 @@ summary: This project is oriented to complex dynamic audio-visual scenes. With a
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
-
 image:
   caption:
   focal_point: Smart

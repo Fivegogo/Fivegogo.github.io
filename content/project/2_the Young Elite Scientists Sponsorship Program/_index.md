@@ -4,7 +4,6 @@ summary: the Young Elite Scientists Sponsorship Program is a national young tale
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
-
 image:
   caption:
   focal_point: Smart

@@ -4,7 +4,6 @@ summary: This project focus on the multi-modal perception and understanding with
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
-
 image:
   caption:
   focal_point: Smart
