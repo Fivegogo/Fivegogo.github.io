@@ -13,4 +13,4 @@ Human could perceive the environments around and perform effectively and efficie
 
 + Audio-Visual perception in complex and heterogeneous scenarios
 + The visual knowledge construction with the guidance of auditory information
-+ unconstrained audio localization and separation with visual semantic knowledge
++ Unconstrained audio localization and separation with visual semantic knowledge
