@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[31-05-2022] Yixin participated in the 2022 Tencent AI Lab Rhino Bird Elite Talent Project."
+    subtitle = "Congrats to Yixin!"
+    subtitle_color = "#808080"
+    link = ""
+
+[[item]]
     title = "[11-03-2022] One paper accepted by TMM."
     subtitle = "Congrats to all the co-authors!"
     subtitle_color = "#808080"
@@ -20,10 +26,18 @@ direction_img = "boards_new.jpg"
     subtitle = "Congrats to Guangyao, Xiaokang, Yake and Andong!"
     subtitle_color = "#808080"
     link = "publication"
+
+
 [[item]]
     title = "[23-12-2021] Dr. Di Hu was selected for the Young Elite Scientists Sponsorship Program by CAST!"
     subtitle_color = "#808080"
     link = "project"
+
+[[item]]
+    title = "[15-12-2021] Two projects were selected for the Research Funds of Renmin University of China Sponsorship Program."
+    subtitle_color = "#808080"
+    link = ""
+
 [[item]]
     title = "[10-12-2021] One paper accepted by TPAMI. "
     subtitle = "Congrats to Yake and other co-authors!"
