@@ -34,8 +34,8 @@
   <div class="ml-3">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
-    {{ $image := .Resize "320x160" }}
-        <img src="{{ $image.RelPermalink }}" alt="">
+    {{ $image := . }}
+        <img style="max-width: 350px;" src="{{ $image.RelPermalink }}" alt="">
     {{end}}
   </div>
   <div style="margin-left: 16px;" class="media-body">
