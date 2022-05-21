@@ -1,9 +1,10 @@
 ---
-title: the Young Elite Scientists Sponsorship Program
-summary: the Young Elite Scientists Sponsorship Program is a national young talents program first initiated in October 2015. It mainly supports young scientific and technological talents under the age of 32 with great innovation ability and development potential, and helps them become high-level leading talents and reserve forces of high-level innovation teams.
+title: The Young Elite Scientists Sponsorship Program
+summary: The Young Elite Scientists Sponsorship Program is a national young talents program first initiated in October 2015. It mainly supports young scientific and technological talents under the age of 32 with great innovation ability and development potential, and helps them become high-level leading talents and reserve forces of high-level innovation teams.
 
 # Optional external URL for project (replaces project detail page).
 # external_link: http://example.org
+weight: 2
 image:
   caption:
   focal_point: Smart
