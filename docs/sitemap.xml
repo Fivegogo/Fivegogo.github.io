@@ -131,6 +131,14 @@
   </url>
   
   <url>
+    <loc>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/andong-deng/</loc>
   </url>
   
@@ -171,7 +179,15 @@
   </url>
   
   <url>
+    <loc>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</loc>
+  </url>
+  
+  <url>
     <loc>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/curriculum-audiovisual-learning/</loc>
   </url>
   
   <url>
@@ -184,6 +200,10 @@
   
   <url>
     <loc>/authors/david-a-clifton/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</loc>
   </url>
   
   <url>
@@ -215,6 +235,10 @@
   </url>
   
   <url>
+    <loc>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</loc>
+  </url>
+  
+  <url>
     <loc>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</loc>
   </url>
   
@@ -240,6 +264,10 @@
   
   <url>
     <loc>/authors/feiping-nie/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</loc>
   </url>
   
   <url>
@@ -287,6 +315,10 @@
   </url>
   
   <url>
+    <loc>/authors/kaibo-xu/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/konrad-heidler/</loc>
   </url>
   
@@ -304,6 +336,10 @@
   
   <url>
     <loc>/authors/lichao-mou/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/licheng-wang/</loc>
   </url>
   
   <url>
@@ -348,6 +384,10 @@
   
   <url>
     <loc>/publication/not-all-knowledge-is-created-equal/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/peizhen-zhu/</loc>
   </url>
   
   <url>
@@ -408,6 +448,10 @@
   
   <url>
     <loc>/dataset/shuttersong-dataset/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/sijia-yang/</loc>
   </url>
   
   <url>
@@ -508,6 +552,10 @@
   
   <url>
     <loc>/authors/zechen-bai/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/zeyi-sun./</loc>
   </url>
   
   <url>

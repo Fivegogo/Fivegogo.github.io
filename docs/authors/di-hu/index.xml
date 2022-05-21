@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>A Two-Stage Framework for Multiple Sound-Source Localization</title>
+      <link>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Sound Helps: Audiovisual Crowd Counting in Extreme Conditions</title>
+      <link>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
       <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,6 +45,14 @@
     </item>
     
     <item>
+      <title>Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle</title>
+      <link>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
       <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,10 +61,26 @@
     </item>
     
     <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation</title>
       <link>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</guid>
       <description></description>
     </item>
     
@@ -69,6 +109,14 @@
     </item>
     
     <item>
+      <title>Discrete Spectral Hashing for Efficient Similarity Retrieval</title>
+      <link>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
       <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -81,6 +129,14 @@
       <link>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalising Combinatorial Discriminant Analysis through Conditioning Truncated Rayleigh Flow</title>
+      <link>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</guid>
       <description></description>
     </item>
     
