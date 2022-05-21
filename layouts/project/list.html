@@ -8,7 +8,6 @@
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
-  {{ $paginator.Pages }}
   {{ range sort $paginator.Pages }}
   <div>
     {{ partial "li_compact_for_dataset" . }}
