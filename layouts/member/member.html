@@ -33,11 +33,15 @@
                                 {{ $src = $avatar_image.RelPermalink }}
                             {{ end }}
                             {{ if $src }}
-                                {{with $link}}
-                                    <div class="people-widget">
-                                        <a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
-                                    </div>
-                                {{end}}
+                                <div class="people-widget">
+                                    {{with $link}}
+                                        <a href="{{.}}">
+                                    {{end}}
+                                        <img class="portrait" src="{{ $src }}" alt="Avatar">
+                                    {{if $link}}
+                                        </a>
+                                    {{end}}
+                                </div>
                             {{ end }}
                 
                             <div class="portrait-title">
@@ -84,8 +88,8 @@
                             {{ end }}
                             {{ if $src }}
                                 {{with $link}}
-                                    <div class="people-widget">
-                                        <a href="{{.}}">{{end}}<img class="portrait" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
+                                    <div>
+                                        <a href="{{.}}">{{end}}<img class="portrait people-widget" src="{{ $src }}" alt="Avatar">{{if $link}}</a>
                                     </div>
                                 {{end}}
                             {{ end }}
