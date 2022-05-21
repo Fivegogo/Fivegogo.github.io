@@ -11,4 +11,4 @@ role: Since 2020
 user_groups:
 - Master Students
 ---
-Yixin is a master student at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/), advised by [Di Hu](https://dtaoo.github.io/).  His main interests are Multi-modal Scene Perception and Self-surpervised Representation Learning. Now he is working on video understanding and speaker diarization task for complex speech scenario.
+Yixin is a master student at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/).  His main research topics are Multi-modal Scene Perception and Self-surpervised Representation Learning. Now he is working on video understanding and speaker diarization task for complex speech scenario. He is also interested in Internet finance, and has got his Bachelor of Finance in Renmin University of China besides the Computer Science degree.

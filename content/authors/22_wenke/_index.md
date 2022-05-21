@@ -11,4 +11,4 @@ website_url: http://www.kaito.org.cn/  # 可以配置个人主页, 如果有的�
 user_groups:
 - Ph.D Students
 ---
-Wenke is an upcoming PhD student in 2022 Fall at [Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/), advised by [Prof. Di Hu](https://dtaoo.github.io/). His research interests include Cross-Modal Transfer Learning and Multi-Modal Learning and is currently focusing on the Embodied AI with multi-modal sensory information.
+Wenke is an upcoming PhD student in 2022 Fall at [Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/), advised by [Prof. Di Hu](https://dtaoo.github.io/). He have also interned at Big Data Lab, Baidu, working with Dr. [Xingjian Li](https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en) and Dr. [Dejing Dou](https://ix.cs.uoregon.edu/~dou/). His research interests include Cross-Modal Transfer Learning and Multi-Modal Learning and is currently focusing on the Embodied AI with multi-modal sensory information. 

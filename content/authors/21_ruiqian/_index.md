@@ -11,4 +11,4 @@ user_groups:
 - Alumni
 ---
 During his undergraduate, he also interned at Sensetime OpenMMLab group, supervised by [Dr. Kai Chen](https://chenkai.site) and also works with [Prof. Di Hu](https://dtaoo.github.io/).  
-Ruiqian is interested in computer vision and machine learning, and has done some research on video representation learning and joint audio-visual learning.
+Rui is interested in computer vision and machine learning, and has done some research on video representation learning and joint audio-visual learning. Now Rui is a Ph.D. student in [Multi-Media Lab](http://mmlab.ie.cuhk.edu.hk/) at The Chinese University of Hong Kong, supervised by Prof. [Dahua Lin](http://dahua.site/).
