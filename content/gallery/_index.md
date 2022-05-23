@@ -29,6 +29,14 @@ height = "600px"
     overlay_filter = 0.5
 
 [[item]]
+    title = "2022-02-01"
+    content = "Happy Chinese New Year!"
+    font_color = "#f8f8f2"
+    align = "center"  # Choose `center`, `left`, or `right`.
+    overlay_img = "photos/chinese new year.jpg"
+    overlay_filter = 0.5
+
+[[item]]
     title = "2022-01-01"
     content = "Happy New Year"
     font_color = "#f8f8f2"
