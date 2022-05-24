@@ -21,7 +21,8 @@ subtitle = ""
                     "Alumni"
                 ]
   user_groups2 = [  # 这个Group讲被放在第二个里面, 只显示头像
-                    "Undergraduate"
+                    "Undergraduate",
+                    "Research Assistant"
                 ]
 
 [design]
