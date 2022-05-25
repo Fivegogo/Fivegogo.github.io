@@ -11,4 +11,5 @@ website_url: https://dengandong.github.io/  # 可以配置个人主页, 如果�
 user_groups:
 - Alumni
 ---
-From 2021 to 2022, Andong have been spending a wonderful period of time at [GeWu Lab](https://gewu-lab.github.io/), working with Dr. [Di Hu](https://dtaoo.github.io/) , who is really a passionate and respectful young scholar. Now Andong is an upcoming PhD student in 2022 Fall at [Center for Research in Computer Vision](https://www.crcv.ucf.edu/), [University of Central Florida](https://www.ucf.edu/), advised by Dr. [Chen Chen](https://www.crcv.ucf.edu/chenchen/).
+
+Andong Deng spent a wonderful year at [GeWu Lab](https://gewu-lab.github.io/) doing research about multimodal learning with Dr. [Di Hu](https://dtaoo.github.io/) from 2021 to 2022. Now he is an upcoming PhD student in 2022 Fall at Center for Research in Computer Vision, University of Central Florida, advised by Dr. [Chen Chen](https://www.crcv.ucf.edu/chenchen/). His research interests include multi-modal learning, video understanding and 3D vision.
