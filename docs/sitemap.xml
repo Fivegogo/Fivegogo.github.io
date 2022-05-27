@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>/project/6_cyberdog/</loc>
+  </url>
+  
+  <url>
     <loc>/member/</loc>
   </url>
   
@@ -83,6 +87,10 @@
   </url>
   
   <url>
+    <loc>/authors/23_ruoxuan/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
   </url>
   
@@ -95,19 +103,19 @@
   </url>
   
   <url>
-    <loc>/topic_types/1/</loc>
-  </url>
-  
-  <url>
     <loc>/publication_types/1/</loc>
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
+    <loc>/topic_types/1/</loc>
   </url>
   
   <url>
     <loc>/topic_types/2/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
   </url>
   
   <url>
