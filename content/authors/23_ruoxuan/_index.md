@@ -11,4 +11,4 @@ superuser: true
 user_groups:
 - Research Assistant
 ---
-个人简介, 控制在600-800个英文字符之内
+Ruoxuan is a junior student in the [College of Computer Science and Electronic Engineering](http://csee.hnu.edu.cn/), [Hunan University](https://www.hnu.edu.cn/). He is interested in computer vision and multi-modal learning, he also likes playing badminton.
