@@ -16,6 +16,19 @@ direction_img = "boards_new.jpg"
     subtitle_color = "#808080"
     link = ""
 
+
+[[item]]
+    title = "[24-05-2022] Ruoxuan joins GeWu Lab as Research Assistant."
+    subtitle = "Welcome, Ruoxuan!"
+    subtitle_color = "#808080"
+    link = ""
+
+[[item]]
+    title = "[24-05-2022] Happy first anniversary to GeWu Lab!"
+    subtitle = "Happy Birthday to GeWu Lab!"
+    subtitle_color = "#808080"
+    link = ""
+
 [[item]]
     title = "[11-03-2022] One paper accepted by TMM."
     subtitle = "Congrats to all the co-authors!"
