@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[31-05-2022] Yake gave a talk at 2022 BAAI Conference."
+    subtitle = "Please click to get slides."
+    subtitle_color = "#808080"
+    link = "https://zenodo.org/record/6597495/files/2022%E6%99%BA%E6%BA%90%E5%A4%A7%E4%BC%9A-%E5%8D%AB%E9%9B%85%E7%8F%82.pdf?download=1"
+
+[[item]]
     title = "[31-05-2022] Yixin participated in the 2022 Tencent AI Lab Rhino Bird Elite Talent Project."
     subtitle = "Congrats to Yixin!"
     subtitle_color = "#808080"
