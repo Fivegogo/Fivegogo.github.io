@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[01-06-2022] Emotional Perception Based on CyberDog was shown on 2022 BAAI conference!"
+    subtitle = "Please click to get videos."
+    subtitle_color = "#808080"
+    link = "https://www.youtube.com/watch?v=4FaXo-aXq_M&t=2s"
+
+[[item]]
     title = "[31-05-2022] Yake gave a talk at 2022 BAAI Conference."
     subtitle = "Please click to get slides."
     subtitle_color = "#808080"
@@ -34,6 +40,12 @@ direction_img = "boards_new.jpg"
     subtitle = "Happy Birthday to GeWu Lab!"
     subtitle_color = "#808080"
     link = ""
+
+[[item]]
+    title = "[15-05-2022] Audio-Visual Navigation of Quadruped Bionic Robot was awarded the school-level project!"
+    subtitle = "Congrats to all the students!"
+    subtitle_color = "#808080"
+    link = "https://zenodo.org/record/6597495/files/2022%E6%99%BA%E6%BA%90%E5%A4%A7%E4%BC%9A-%E5%8D%AB%E9%9B%85%E7%8F%82.pdf?download=1"
 
 [[item]]
     title = "[11-03-2022] One paper accepted by TMM."
