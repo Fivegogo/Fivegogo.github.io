@@ -1,7 +1,7 @@
 ---
 title: Audio-Visual Navigation of Quadruped Bionic Robot
 summary: Based on Mi CyberDog, the project is dedicated to narrowing gaps in the Sim2Real process of Audio-Visual Navigation.
-web_link:
+web_link: https://three-cyber-dogers.github.io/
 weight: 6
 image:
     caption:
