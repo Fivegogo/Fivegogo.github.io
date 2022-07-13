@@ -9,6 +9,17 @@ title = ""
 subtitle = ""
 
 direction_img = "boards_new.jpg"
+[[item]]
+    title = "[11-7-2022] Prof. Di Hu will chair the \"Audiovisual Enhancement\" session in ICME 2022."
+    subtitle = ""
+    subtitle_color = ""
+    link = ""
+
+[[item]]
+    title = "[12-7-2022] Prof. Di Hu was invited as the Senior PC Member in AAAI 2023."
+    subtitle = ""
+    subtitle_color = ""
+    link = ""
 
 [[item]]
     title = "[01-06-2022] Emotional Perception Based on CyberDog was shown on 2022 BAAI conference!"
@@ -84,5 +95,4 @@ direction_img = "boards_new.jpg"
     subtitle = "A Survey of Vision-Language Pre-Trained Models"
     subtitle_color = "#808080"
     link = "http://aibox.ruc.edu.cn/paper.html"
-
 +++
