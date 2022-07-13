@@ -9,14 +9,15 @@ title = ""
 subtitle = ""
 
 direction_img = "boards_new.jpg"
+
 [[item]]
-    title = "[11-7-2022] Prof. Di Hu will chair the \"Audiovisual Enhancement\" session in ICME 2022."
+    title = "[12-7-2022] Prof. Di Hu was invited as the Senior PC Member in AAAI 2023."
     subtitle = ""
     subtitle_color = ""
     link = ""
 
 [[item]]
-    title = "[12-7-2022] Prof. Di Hu was invited as the Senior PC Member in AAAI 2023."
+    title = "[11-7-2022] Prof. Di Hu will chair the \"Audiovisual Enhancement\" session in ICME 2022."
     subtitle = ""
     subtitle_color = ""
     link = ""
