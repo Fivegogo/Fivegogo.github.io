@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -91,6 +91,10 @@
   </url>
   
   <url>
+    <loc>/authors/23_zhaoxu/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
   </url>
   
@@ -111,19 +115,19 @@
   </url>
   
   <url>
-    <loc>/topic_types/2/</loc>
-  </url>
-  
-  <url>
     <loc>/publication_types/2/</loc>
   </url>
   
   <url>
-    <loc>/topic_types/3/</loc>
+    <loc>/topic_types/2/</loc>
   </url>
   
   <url>
     <loc>/publication_types/3/</loc>
+  </url>
+  
+  <url>
+    <loc>/topic_types/3/</loc>
   </url>
   
   <url>
