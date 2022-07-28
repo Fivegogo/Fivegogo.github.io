@@ -141,19 +141,28 @@ He got his undergraduate degree at &lt;a href=&#34;https://www.ruc.edu.cn/&#34; 
     
     <item>
       <title></title>
-      <link>/authors/23_ruoxuan/</link>
+      <link>/authors/23_guofan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/23_ruoxuan/</guid>
-      <description>&lt;p&gt;Ruoxuan is a junior student in the &lt;a href=&#34;http://csee.hnu.edu.cn/&#34; target=&#34;_blank&#34;&gt;College of Computer Science and Electronic Engineering&lt;/a&gt;, &lt;a href=&#34;https://www.hnu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Hunan University&lt;/a&gt;. He is interested in computer vision and multi-modal learning, he also likes playing badminton.&lt;/p&gt;
+      <guid>/authors/23_guofan/</guid>
+      <description>&lt;p&gt;Guofan is an upcoming master student in 2023 Fall at &lt;a href=&#34;http://ai.ruc.edu.cn/&#34; target=&#34;_blank&#34;&gt;Gaoling School of Artificial Intelligence, Renmin University of China&lt;/a&gt;, advised by &lt;a href=&#34;https://dtaoo.github.io/&#34; target=&#34;_blank&#34;&gt;Prof. Di Hu&lt;/a&gt;. Now his research interests focus on effective mechanism of multi-modal learning.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/23_zhaoxu/</link>
+      <link>/authors/23_ruoxuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/23_zhaoxu/</guid>
-      <description>&lt;p&gt;ZhaoXu is about to graduate with his bachelor&amp;rsquo;s degree in 2023 and  will start his Ph.D career in the &lt;a href=&#34;https://gewu-lab.github.io/&#34; target=&#34;_blank&#34;&gt;GeWu-Lab&lt;/a&gt;, &lt;a href=&#34;http://ai.ruc.edu.cn/&#34; target=&#34;_blank&#34;&gt;Gaoling School of Artificial Intelligence&lt;/a&gt;, &lt;a href=&#34;https://www.ruc.edu.cn/&#34; target=&#34;_blank&#34;&gt;Renmin University of China&lt;/a&gt;, in Sept 2023. He is interested in video understanding and mutil-modal learning.&lt;/p&gt;
+      <guid>/authors/23_ruoxuan/</guid>
+      <description>&lt;p&gt;Ruoxuan is currently a student of the &lt;a href=&#34;http://csee.hnu.edu.cn/&#34; target=&#34;_blank&#34;&gt;College of Computer Science and Electronic Engineering&lt;/a&gt;, &lt;a href=&#34;https://www.hnu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Hunan University&lt;/a&gt;. He will received his bachelor’s degree and join &lt;a href=&#34;https://gewu-lab.github.io/&#34; target=&#34;_blank&#34;&gt;GeWu-Lab&lt;/a&gt; for a master’s degree in 2023. He is interested in multi-modal learning and embodied AI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/23_xuzhao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/23_xuzhao/</guid>
+      <description>&lt;p&gt;Xu Zhao is about to graduate with his bachelor&amp;rsquo;s degree in 2023 and will start his Ph.D career in the &lt;a href=&#34;https://gewu-lab.github.io/&#34; target=&#34;_blank&#34;&gt;GeWu-Lab&lt;/a&gt;, &lt;a href=&#34;http://ai.ruc.edu.cn/&#34; target=&#34;_blank&#34;&gt;Gaoling School of Artificial Intelligence&lt;/a&gt;, &lt;a href=&#34;https://www.ruc.edu.cn/&#34; target=&#34;_blank&#34;&gt;Renmin University of China&lt;/a&gt;, in Sept 2023. He is interested in video understanding and multi-modal learning.&lt;/p&gt;
 </description>
     </item>
     
@@ -231,18 +240,18 @@ He got his undergraduate degree at &lt;a href=&#34;https://www.ruc.edu.cn/&#34; 
     </item>
     
     <item>
-      <title>Di Hu</title>
-      <link>/authors/di-hu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/di-hu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Di Hu - Chengze Wang - Feiping Nie - Xuelong Li</title>
       <link>/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Di Hu*</title>
+      <link>/authors/di-hu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/di-hu/</guid>
       <description></description>
     </item>
     
@@ -271,7 +280,7 @@ He got his undergraduate degree at &lt;a href=&#34;https://www.ruc.edu.cn/&#34; 
     </item>
     
     <item>
-      <title>Errui Ding*</title>
+      <title>Errui Ding</title>
       <link>/authors/errui-ding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/errui-ding/</guid>

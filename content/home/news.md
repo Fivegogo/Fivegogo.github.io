@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[27-7-2022] Ruoxuan,Guofan and Xu Zhao joins GeWu Lab as student members."
+    subtitle = "Welcome Ruoxuan,Guofan and Xu Zhao!"
+    subtitle_color = ""
+    link = ""
+
+[[item]]
     title = "[12-7-2022] Prof. Di Hu was invited as the Senior PC Member in AAAI 2023."
     subtitle = ""
     subtitle_color = ""
@@ -41,11 +47,6 @@ direction_img = "boards_new.jpg"
     link = ""
 
 
-[[item]]
-    title = "[24-05-2022] Ruoxuan joins GeWu Lab as Research Assistant."
-    subtitle = "Welcome, Ruoxuan!"
-    subtitle_color = "#808080"
-    link = ""
 
 [[item]]
     title = "[24-05-2022] Happy first anniversary to GeWu Lab!"

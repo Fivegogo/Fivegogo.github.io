@@ -87,11 +87,15 @@
   </url>
   
   <url>
+    <loc>/authors/23_guofan/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/23_ruoxuan/</loc>
   </url>
   
   <url>
-    <loc>/authors/23_zhaoxu/</loc>
+    <loc>/authors/23_xuzhao/</loc>
   </url>
   
   <url>
@@ -107,11 +111,11 @@
   </url>
   
   <url>
-    <loc>/topic_types/1/</loc>
+    <loc>/publication_types/1/</loc>
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/topic_types/1/</loc>
   </url>
   
   <url>
@@ -123,11 +127,11 @@
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
+    <loc>/topic_types/3/</loc>
   </url>
   
   <url>
-    <loc>/topic_types/3/</loc>
+    <loc>/publication_types/3/</loc>
   </url>
   
   <url>
@@ -239,11 +243,11 @@
   </url>
   
   <url>
-    <loc>/authors/di-hu/</loc>
+    <loc>/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</loc>
   </url>
   
   <url>
-    <loc>/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</loc>
+    <loc>/authors/di-hu/</loc>
   </url>
   
   <url>
