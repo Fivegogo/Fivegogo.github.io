@@ -11,8 +11,14 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
-    title = "[27-7-2022] Ruoxuan,Guofan and Xu Zhao joins GeWu Lab as student members."
-    subtitle = "Welcome Ruoxuan,Guofan and Xu Zhao!"
+    title = "[27-7-2022] Xu Zhao joins GeWu Lab as Ph.D student."
+    subtitle = "Welcome Xu Zhao!"
+    subtitle_color = ""
+    link = ""
+
+[[item]]
+    title = "[27-7-2022] Ruoxuan and Guofan join GeWu Lab as master student."
+    subtitle = "Welcome Ruoxuan and Guofan!"
     subtitle_color = ""
     link = ""
 
