@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[24-8-2022] Prof. Di Hu gave a talk @Valse 2022 in Tian Jin."
+    subtitle = ""
+    subtitle_color = ""
+    link = "http://valser.org/2022/#/"
+
+[[item]]
     title = "[27-7-2022] Xu Zhao joins GeWu Lab as Ph.D student."
     subtitle = "Welcome Xu Zhao!"
     subtitle_color = ""

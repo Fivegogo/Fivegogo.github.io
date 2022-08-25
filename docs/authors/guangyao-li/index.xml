@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guangyao Li | GeWu-Lab</title>
+    <title>Guangyao Li* | GeWu-Lab</title>
     <link>/authors/guangyao-li/</link>
       <atom:link href="/authors/guangyao-li/index.xml" rel="self" type="application/rss+xml" />
-    <description>Guangyao Li</description>
+    <description>Guangyao Li*</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2022 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
-      <title>Guangyao Li</title>
+      <title>Guangyao Li*</title>
       <link>/authors/guangyao-li/</link>
     </image>
     

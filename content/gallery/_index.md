@@ -2,6 +2,14 @@
 height = "600px"
 
 
+[[item]]
+    title = "2022-08-22"
+    content = "Valse 2022 in Tian Jin"
+    font_color = "#f8f8f2"
+    align = "center"  # Choose `center`, `left`, or `right`.
+    overlay_img = "photos/valse2022.jpg"
+    overlay_filter = 0.5
+
 
 [[item]]
     title = "2022-04-12"
