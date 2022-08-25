@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[25-8-2022] We wrote an article about recent advances in audio-visual learning, Please check here!"
+    subtitle = ""
+    subtitle_color = ""
+    link = "https://gewu-lab.github.io/audio-visual-learning/"
+
+[[item]]
     title = "[24-8-2022] Prof. Di Hu gave a talk @Valse 2022 in Tian Jin."
     subtitle = ""
     subtitle_color = ""
