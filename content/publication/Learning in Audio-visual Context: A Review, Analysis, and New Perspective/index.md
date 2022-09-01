@@ -5,7 +5,7 @@ authors:
  - Di Hu
  - Yapeng Tian
  - Xuelong Li
-publication: Arxiv
+publication: Preprint
 publication_types: ["3"] 
 publication_types_name: Preprint
 url_pdf: https://arxiv.org/pdf/2208.09579.pdf
