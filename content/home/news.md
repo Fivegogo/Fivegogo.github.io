@@ -11,37 +11,37 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
-    title = "[25-8-2022] We wrote an article about recent advances in audio-visual learning, Please check here!"
+    title = "[25-08-2022] We wrote an article about recent advances in audio-visual learning, Please check here!"
     subtitle = ""
     subtitle_color = ""
     link = "https://gewu-lab.github.io/audio-visual-learning/"
 
 [[item]]
-    title = "[24-8-2022] Prof. Di Hu gave a talk @Valse 2022 in Tian Jin."
+    title = "[24-08-2022] Prof. Di Hu gave a talk @Valse 2022 in Tian Jin."
     subtitle = ""
     subtitle_color = ""
     link = "http://valser.org/2022/#/"
 
 [[item]]
-    title = "[27-7-2022] Xu Zhao joins GeWu Lab as Ph.D student."
+    title = "[27-07-2022] Xu Zhao joins GeWu Lab as Ph.D student."
     subtitle = "Welcome Xu Zhao!"
     subtitle_color = ""
     link = ""
 
 [[item]]
-    title = "[27-7-2022] Ruoxuan and Guofan join GeWu Lab as master student."
-    subtitle = "Welcome Ruoxuan and Guofan!"
+    title = "[27-07-2022] Ruoxuan join GeWu Lab as master student."
+    subtitle = "Welcome Ruoxuan!"
     subtitle_color = ""
     link = ""
 
 [[item]]
-    title = "[12-7-2022] Prof. Di Hu was invited as the Senior PC Member in AAAI 2023."
+    title = "[12-07-2022] Prof. Di Hu was invited as the Senior PC Member in AAAI 2023."
     subtitle = ""
     subtitle_color = ""
     link = ""
 
 [[item]]
-    title = "[11-7-2022] Prof. Di Hu will chair the \"Audiovisual Enhancement\" session in ICME 2022."
+    title = "[11-07-2022] Prof. Di Hu will chair the \"Audiovisual Enhancement\" session in ICME 2022."
     subtitle = ""
     subtitle_color = ""
     link = ""
