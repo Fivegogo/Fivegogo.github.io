@@ -9,6 +9,11 @@ title = ""
 subtitle = ""
 
 direction_img = "boards_new.jpg"
+[[item]]
+    title = "[13-10-2022] Two papers accepted by WACV 2022"
+    subtitle = "Congrats to all the co-authors!"
+    subtitle_color = "#808080"
+    link = "publication"
 
 [[item]]
     title = "[25-08-2022] We wrote an article about recent advances in audio-visual learning, Please check here!"
