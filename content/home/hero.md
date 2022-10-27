@@ -45,7 +45,7 @@ hero_media = "logo_v1.svg"
 #    icon = "download"
 # 这里的icon_pack和icon的使用方法详见`https://wowchemy.com/docs/getting-started/page-builder/` 中的icons一节
 [[cta]]
-  url = "https://www.zhihu.com/column/c_1280978171983507456"
+  url = "https://www.zhihu.com/people/GeWu-Lab"
   icon_pack = "fab"
   icon = "zhihu"
   
