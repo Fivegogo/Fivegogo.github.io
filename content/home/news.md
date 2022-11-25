@@ -10,6 +10,11 @@ subtitle = ""
 
 direction_img = "boards_new.jpg"
 [[item]]
+    title = "[25-11-2022] One papers accepted by JAG 2022"
+    subtitle = "Congrats to all the co-authors!"
+    subtitle_color = "#808080"
+    link = "publication"
+[[item]]
     title = "[13-10-2022] Two papers accepted by WACV 2022"
     subtitle = "Congrats to all the co-authors!"
     subtitle_color = "#808080"
