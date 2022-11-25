@@ -16,5 +16,5 @@ url_pdf: https://arxiv.org/abs/2108.00688
 url_demo: https://www.youtube.com/watch?v=gD_fNJPBWhs  
 topic_types: ["2"]
 topic_types_name: topic_scene_understanding
-rating : 2021_06_01
+rating : 2022_11_25
 ---  
