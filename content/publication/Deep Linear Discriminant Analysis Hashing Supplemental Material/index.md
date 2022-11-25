@@ -1,5 +1,5 @@
 ---  
-title: "Deep Linear Discriminant Analysis Hashing Supplemental Material"  
+title: "Deep Linear Discriminant Analysis Hashing"  
 authors:   
  - Di Hu 
  - Feiping Nie  
