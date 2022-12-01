@@ -10,17 +10,17 @@ subtitle = ""
 
 direction_img = "boards_new.jpg"
 [[item]]
-    title = "[01-12-2022] Prof. Di Hu was invited as the Senior PC Member in IJCAI 2023"
+    title = "[01-12-2022] Prof. Di Hu was invited as the Senior PC Member in IJCAI 2023."
     subtitle = ""
     subtitle_color = "#808080"
     link = ""
 [[item]]
-    title = "[25-11-2022] One papers accepted by JAG 2022"
+    title = "[25-11-2022] One papers accepted by JAG 2022."
     subtitle = "Congrats to all the co-authors!"
     subtitle_color = "#808080"
     link = "publication"
 [[item]]
-    title = "[13-10-2022] Two papers accepted by WACV 2022"
+    title = "[13-10-2022] Two papers accepted by WACV 2022."
     subtitle = "Congrats to all the co-authors!"
     subtitle_color = "#808080"
     link = "publication"
@@ -116,7 +116,7 @@ direction_img = "boards_new.jpg"
     link = ""
 
 [[item]]
-    title = "[10-12-2021] One paper accepted by TPAMI. "
+    title = "[10-12-2021] One paper accepted by TPAMI."
     subtitle = "Congrats to Yake and other co-authors!"
     subtitle_color = "#808080"
     link = "publication"
