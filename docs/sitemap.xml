@@ -395,10 +395,6 @@
   </url>
   
   <url>
-    <loc>/publication/revisiting-pre-training-in-audio-visual-learning/</loc>
-  </url>
-  
-  <url>
     <loc>/dataset/music-avqa/</loc>
   </url>
   
@@ -448,6 +444,10 @@
   
   <url>
     <loc>/dataset/realistic-music-dailylife-dataset/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/revisiting-pre-training-in-audio-visual-learning/</loc>
   </url>
   
   <url>

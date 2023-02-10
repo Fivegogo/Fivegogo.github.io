@@ -1,5 +1,5 @@
 ---  
-title: "Multiple Sound Sources Localization from Coarse to Fine"  
+title: "Revisiting Pre-training in Audio-Visual Learning"  
 authors:  
  - Ruoxuan Feng 
  - Wenke Xia
