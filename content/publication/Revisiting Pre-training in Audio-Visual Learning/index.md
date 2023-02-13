@@ -5,7 +5,7 @@ authors:
  - Wenke Xia
  - Di Hu 
 publication_types: ["3"]  
-publication: Arxiv 
+publication: arXiv
 publication_types_name: Preprint
 url_pdf: https://arxiv.org/abs/2302.03533 
 url_code:  https://github.com/GeWu-Lab/Revisiting-Pre-training-in-Audio-Visual-Learning
