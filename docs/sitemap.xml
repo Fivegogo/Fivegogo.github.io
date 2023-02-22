@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -111,15 +111,11 @@
   </url>
   
   <url>
-    <loc>/topic_types/1/</loc>
-  </url>
-  
-  <url>
     <loc>/publication_types/1/</loc>
   </url>
   
   <url>
-    <loc>/topic_types/2/</loc>
+    <loc>/topic_types/1/</loc>
   </url>
   
   <url>
@@ -127,11 +123,15 @@
   </url>
   
   <url>
-    <loc>/topic_types/3/</loc>
+    <loc>/topic_types/2/</loc>
   </url>
   
   <url>
     <loc>/publication_types/3/</loc>
+  </url>
+  
+  <url>
+    <loc>/topic_types/3/</loc>
   </url>
   
   <url>
@@ -387,6 +387,10 @@
   </url>
   
   <url>
+    <loc>/publication/mmcosine-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</loc>
+  </url>
+  
+  <url>
     <loc>/publication/multimodal-learning-via-exploring-deep-semantic-similarity/</loc>
   </url>
   
@@ -463,6 +467,10 @@
   </url>
   
   <url>
+    <loc>/authors/ruize-xu/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/ruoxuan-feng/</loc>
   </url>
   
@@ -480,6 +488,10 @@
   
   <url>
     <loc>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/shi-xiong-zhang/</loc>
   </url>
   
   <url>
