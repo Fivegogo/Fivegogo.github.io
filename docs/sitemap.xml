@@ -99,6 +99,10 @@
   </url>
   
   <url>
+    <loc>/authors/23_zongzhao/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
   </url>
   
@@ -111,11 +115,11 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/topic_types/1/</loc>
   </url>
   
   <url>
-    <loc>/topic_types/1/</loc>
+    <loc>/publication_types/1/</loc>
   </url>
   
   <url>
