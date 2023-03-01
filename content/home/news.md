@@ -9,6 +9,13 @@ title = ""
 subtitle = ""
 
 direction_img = "boards_new.jpg"
+
+[[item]]
+    title = "[22-02-2023] Zongzhao joins GeWu Lab as Ph.D student."
+    subtitle = "Welcome Zongzhao!"
+    subtitle_color = ""
+    link = ""
+
 [[item]]
     title = "[01-12-2022] Prof. Di Hu was invited as the Senior PC Member in IJCAI 2023."
     subtitle = ""
@@ -36,12 +43,6 @@ direction_img = "boards_new.jpg"
     subtitle = ""
     subtitle_color = ""
     link = "http://valser.org/2022/#/"
-
-[[item]]
-    title = "[27-07-2022] Xu Zhao joins GeWu Lab as Ph.D student."
-    subtitle = "Welcome Xu Zhao!"
-    subtitle_color = ""
-    link = ""
 
 [[item]]
     title = "[27-07-2022] Ruoxuan join GeWu Lab as master student."
