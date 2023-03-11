@@ -17,6 +17,12 @@ direction_img = "boards_new.jpg"
     link = ""
 
 [[item]]
+    title = "[16-02-2023] One paper accepted by ICASSP."
+    subtitle = "Congrats to Ruize and Ruoxuan!"
+    subtitle_color = "#808080"
+    link = "publication"
+
+[[item]]
     title = "[01-12-2022] Prof. Di Hu was invited as the Senior PC Member in IJCAI 2023."
     subtitle = ""
     subtitle_color = "#808080"

@@ -115,19 +115,19 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
-  </url>
-  
-  <url>
     <loc>/topic_types/1/</loc>
   </url>
   
   <url>
-    <loc>/topic_types/2/</loc>
+    <loc>/publication_types/1/</loc>
   </url>
   
   <url>
     <loc>/publication_types/2/</loc>
+  </url>
+  
+  <url>
+    <loc>/topic_types/2/</loc>
   </url>
   
   <url>
