@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wenke Xia | GeWu-Lab</title>
-    <link>/authors/wenke-xia/</link>
-      <atom:link href="/authors/wenke-xia/index.xml" rel="self" type="application/rss+xml" />
-    <description>Wenke Xia</description>
+    <title>Changqing Zhang | GeWu-Lab</title>
+    <link>/authors/changqing-zhang/</link>
+      <atom:link href="/authors/changqing-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Changqing Zhang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2023 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
-      <title>Wenke Xia</title>
-      <link>/authors/wenke-xia/</link>
+      <title>Changqing Zhang</title>
+      <link>/authors/changqing-zhang/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Revisiting Pre-training in Audio-Visual Learning</title>
-      <link>/publication/revisiting-pre-training-in-audio-visual-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/revisiting-pre-training-in-audio-visual-learning/</guid>
       <description></description>
     </item>
     
