@@ -11,6 +11,12 @@ subtitle = ""
 direction_img = "boards_new.jpg"
 
 [[item]]
+    title = "[11-03-2023] Prof. Di Hu won the 2022 WuWenJun AI Excellent Young Scientist Award!"
+    subtitle = ""
+    subtitle_color = ""
+    link = ""
+
+[[item]]
     title = "[22-02-2023] Zongzhao joins GeWu Lab as Ph.D student."
     subtitle = "Welcome Zongzhao!"
     subtitle_color = ""
@@ -134,7 +140,7 @@ direction_img = "boards_new.jpg"
     link = "publication"
 [[item]]
     title = "[28-10-2021] Dr. Di Hu won the 2021 Outstanding Doctoral Dissertation Award of SHAANXI Province!"
-    subtitle = "A Survey of Vision-Language Pre-Trained Models"
+    subtitle = ""
     subtitle_color = "#808080"
-    link = "http://aibox.ruc.edu.cn/paper.html"
+    link = ""
 +++

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lichao Mou | GeWu-Lab</title>
+    <title>Lichao Mou* | GeWu-Lab</title>
     <link>/authors/lichao-mou/</link>
       <atom:link href="/authors/lichao-mou/index.xml" rel="self" type="application/rss+xml" />
-    <description>Lichao Mou</description>
+    <description>Lichao Mou*</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2023 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
-      <title>Lichao Mou</title>
+      <title>Lichao Mou*</title>
       <link>/authors/lichao-mou/</link>
     </image>
     
