@@ -20,6 +20,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Self-supervised Audiovisual Representation Learning for Remote Sensing Data</title>
       <link>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</link>
@@ -28,5 +29,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 0703303 (first commit)
   </channel>
 </rss>

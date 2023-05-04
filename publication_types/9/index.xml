@@ -20,6 +20,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle</title>
       <link>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</link>
@@ -52,5 +53,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 0703303 (first commit)
   </channel>
 </rss>

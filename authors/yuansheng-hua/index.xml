@@ -20,6 +20,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Does Ambient Sound Help? - Audiovisual Crowd Counting</title>
       <link>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</link>
@@ -28,5 +29,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 0703303 (first commit)
   </channel>
 </rss>

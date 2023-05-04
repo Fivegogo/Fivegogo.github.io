@@ -4,6 +4,7 @@
   <url>
     <loc>/project/1_the-national-natural-science-foundation-of-china/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>/project/2_the-young-elite-scientists-sponsorship-program/</loc>
   </url><url>
     <loc>/project/3_audio-visual-speaker-diarization/</loc>
@@ -14,12 +15,15 @@
   </url><url>
     <loc>/project/6_cyberdog/</loc>
   </url><url>
+=======
+>>>>>>> 0703303 (first commit)
     <loc>/member/</loc>
   </url><url>
     <loc>/authors/19_ruize/</loc>
   </url><url>
     <loc>/authors/20_guangyao/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>/authors/20_xiaokang/</loc>
   </url><url>
     <loc>/authors/20_xuemin/</loc>
@@ -52,12 +56,19 @@
   </url><url>
     <loc>/authors/23_zongzhao/</loc>
   </url><url>
+=======
+    <loc>/authors/22_andong/</loc>
+  </url><url>
+    <loc>/authors/23_yaoting/</loc>
+  </url><url>
+>>>>>>> 0703303 (first commit)
     <loc>/authors/admin/</loc>
   </url><url>
     <loc>/gallery/</loc>
   </url><url>
     <loc>/dataset/advance/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>/dataset/disco/</loc>
   </url><url>
     <loc>/topic_types/0/</loc>
@@ -72,6 +83,10 @@
   </url><url>
     <loc>/topic_types/3/</loc>
   </url><url>
+=======
+    <loc>/topic_types/2/</loc>
+  </url><url>
+>>>>>>> 0703303 (first commit)
     <loc>/publication_types/3/</loc>
   </url><url>
     <loc>/publication_types/9/</loc>
@@ -80,6 +95,7 @@
   </url><url>
     <loc>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>/authors/andong-deng/</loc>
   </url><url>
     <loc>/authors/</loc>
@@ -222,10 +238,37 @@
   </url><url>
     <loc>/authors/pu-jin/</loc>
   </url><url>
+=======
+    <loc>/authors/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/dataset/</loc>
+  </url><url>
+    <loc>/authors/dejing-dou/</loc>
+  </url><url>
+    <loc>/authors/di-hu/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/authors/heinrich-dinkel/</loc>
+  </url><url>
+    <loc>/authors/junyu-gao/</loc>
+  </url><url>
+    <loc>/authors/lichao-mou/</loc>
+  </url><url>
+    <loc>/authors/mengyue-wu/</loc>
+  </url><url>
+    <loc>/authors/ning-xu/</loc>
+  </url><url>
+    <loc>/project/</loc>
+  </url><url>
+>>>>>>> 0703303 (first commit)
     <loc>/publication_types/</loc>
   </url><url>
     <loc>/publication/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>/authors/qi-wang/</loc>
   </url><url>
     <loc>/authors/qingzhong-wang/</loc>
@@ -329,5 +372,20 @@
     <loc>/authors/ziwei-liu/</loc>
   </url><url>
     <loc>/authors/ziyun-li/</loc>
+=======
+    <loc>/authors/qingzhong-wang/</loc>
+  </url><url>
+    <loc>/authors/rui-qian/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/topic_types/</loc>
+  </url><url>
+    <loc>/authors/weiyao-lin/</loc>
+  </url><url>
+    <loc>/authors/xiao-xiang-zhu/</loc>
+  </url><url>
+    <loc>/authors/yuansheng-hua/</loc>
+>>>>>>> 0703303 (first commit)
   </url>
 </urlset>

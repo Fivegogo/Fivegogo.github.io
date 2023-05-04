@@ -20,6 +20,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Class-aware Sounding Objects Localization via Audiovisual Correspondence</title>
       <link>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</link>
@@ -52,5 +53,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 0703303 (first commit)
   </channel>
 </rss>

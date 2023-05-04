@@ -20,6 +20,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Multiple Sound Sources Localization from Coarse to Fine</title>
       <link>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</link>
@@ -28,5 +29,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 0703303 (first commit)
   </channel>
 </rss>

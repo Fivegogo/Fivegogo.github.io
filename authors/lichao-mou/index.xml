@@ -20,6 +20,7 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
       <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
@@ -44,5 +45,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 0703303 (first commit)
   </channel>
 </rss>
